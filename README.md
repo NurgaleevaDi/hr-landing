@@ -13,3 +13,6 @@
   
 ## Использованные технологии
 
+
+## Задачи по проекту по ссылке: https://www.figma.com/file/hRneemHjfyHWWcmAwJVDjP/Доска?node-id=0%3A1&t=6rf2d2CFvC5aNMWl-0
+

@@ -1,2 +1,4 @@
 @import url(./vendor/normalize.css);
 @import url(./components/app.css);
+
+@import url(./components/Tasks/Tasks.css);

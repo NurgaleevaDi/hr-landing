@@ -6,3 +6,12 @@
    background-color: #ffffff;
    font-weight: 400;
 }
+
+.button {
+  background-color: #262626;
+  color: white;
+  min-width: 280px;
+  min-height: 60px;
+  border-radius: 14px;
+  border: none;
+}

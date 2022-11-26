@@ -11,7 +11,7 @@ https://www.figma.com/file/hRneemHjfyHWWcmAwJVDjP/Доска?node-id=0%3A1&t=6rf
   
   Работа выполнена командой разработчиков:
   * Мельников Станислав https://github.com/melnikovst
-  * Колганов Станислав https://github.com/MethodM4N
+  * Колганов Александр https://github.com/MethodM4N
   * Нургалеева Диана https://github.com/NurgaleevaDi
 
 ## Функционал проекта

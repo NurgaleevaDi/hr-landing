@@ -1,0 +1,127 @@
+.card {
+  position: absolute;
+  top: calc(50% - 200px);
+  width: 385px;
+  height: 470px;
+  box-shadow: 25px 25px 100px rgba(0,0,0,0.2);
+  border-radius: 15px;
+  transition: all 1.5s ease;
+  opacity: 1;
+  visibility: visible;
+}
+
+.card1 {
+  background: #D9D9D9;
+  z-index: 8;
+}
+
+.card2 {
+  top: calc(50% - 230px);
+  background: #ABABAB;
+  z-index: 7;
+}
+
+.card3 {
+  top: calc(50% - 270px);
+  background: #636060;
+  z-index: 6;
+}
+
+.card4 {
+  top: calc(50% - 270px);
+  background: burlywood;
+  z-index: 5;
+}
+
+.card5 {
+  top: calc(50% - 270px);
+  background: blueviolet;
+  z-index: 4;
+}
+
+.card6 {
+  top: calc(50% - 270px);
+  background-color: pink;
+  z-index: 3;
+}
+
+.card7 {
+  top: calc(50% - 270px);
+  background-color: aqua;
+  z-index: 2;
+}
+
+.card8 {
+  top: calc(50% - 270px);
+  background-color: yellowgreen;
+  z-index: 1;
+}
+
+.card__rotate_left {
+  transform: translate(-500px) translateY(300px) rotate(140deg);
+  opacity: 0;
+  visibility: hidden;
+}
+
+.card__rotate_right {
+  transform: translateX(500px) translateY(300px) rotate(-140deg);
+  opacity: 0;
+  visibility: hidden;
+}
+
+.card__buttons-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 160px 0 62px 0;
+}
+
+.card__button {
+  background-position: center;
+  width: 53px;
+  height: 50px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.card__btn_left {
+  background-image: url('../../images/arrowleft.png');
+  margin: 0 0 0 30px;
+}
+
+.card__btn_right {
+  background-image: url('../../images/arrowright.png');
+  margin: 0 30px 0 0;
+}
+
+.card__title {
+  font-family: 'YS Text';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  max-width: 212px;
+  margin: 43px 0 25px 30px;
+}
+
+.card__nums {
+  margin: 48px 30px 0 0;
+}
+
+.card__text-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+}
+
+.card__text {
+  font-family: 'YS Text';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  max-width: 258px;
+  margin: 0 0 0 30px;
+}

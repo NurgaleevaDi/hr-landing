@@ -28,3 +28,8 @@
 .link:hover{
   opacity: 0.5;
 }
+
+.list {
+  list-style: none;
+  padding: 0;
+}

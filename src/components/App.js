@@ -1,11 +1,13 @@
 import Tasks from './Tasks/Tasks';
 import Footer from './Footer/Footer';
+import Expert from './Expert/Expert';
 
 function App() {
   return (
     <>
       <h1>Hello</h1>
       <Tasks></Tasks>
+      <Expert></Expert>
       <Footer></Footer>
     </>
   );

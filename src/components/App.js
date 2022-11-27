@@ -9,6 +9,4 @@ function App() {
   );
 }
 
-console.log('asddasasdasd');
-
 export default App;

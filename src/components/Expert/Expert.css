@@ -1,0 +1,48 @@
+.expert__title {
+  margin: 0;
+  margin-bottom: 50px;
+  margin-left: 108px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+}
+
+.expert__puzzle {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+.puzzle-one {
+  display: flex;
+  min-width: 441px;
+  min-height: 173px;
+  background-image: url(./images/puzzle-one.png);
+  background-repeat: none;
+}
+
+.puzzle-text {
+  margin: auto;
+  max-width: 192px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.puzzle-two {
+  display: flex;
+  margin-left: -38px;
+  min-width: 457.5px;
+  min-height: 173px;
+  background-image: url(./images/puzzle-two.png);
+}
+
+.puzzle-three {
+  display: flex;
+  margin-left: -38px;
+  min-width: 404px;
+  min-height: 173px;
+  background-image: url(./images/puzzle-three.png);
+}

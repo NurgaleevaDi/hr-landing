@@ -1,0 +1,43 @@
+.footer__container-first {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer__tel {
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.17;
+}
+
+.footer__tel-text {
+  margin: 0;
+}
+
+.footer__contacts-list {
+  margin-top: 20px;
+}
+
+.footer__contacts-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.footer__nav {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-rows: repeat(4, auto);
+  grid-column-gap: 170px;
+}
+
+.footer__container-second {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer__legal-info {
+  max-width: 630px;
+}

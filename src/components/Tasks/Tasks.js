@@ -9,7 +9,7 @@ function Tasks() {
           <h2 className="tasks__title">Задачи наставника</h2>
           <p className="tasks__text">Оплата за ведение группы</p>
           <p className="tasks__text">&sim;35 000-50 000 &#8381; в месяц</p>
-          <button type="button" className="tasks__button button"><a className="tasks__link link" href="#">К вакансиям наставников</a></button>
+          <button type="button" className="tasks__button button"><a className="tasks__link" href="#">К вакансиям наставников</a></button>
         </div>
         <ul className='tasks__list list'>
           <li className="tasks__item">Помогать студентам ставить цели, Рефлексировать и делать выводы</li>
@@ -31,7 +31,7 @@ function Tasks() {
           <h2 className="tasks__title">Задачи ревьюера</h2>
           <p className="tasks__text">Оплата за каждое ревью</p>
           <p className="tasks__text">&sim;35 000-50 000&#8381; в месяц</p>
-          <button type="button" className="tasks__button button"><a className="tasks__link link" href="#">К вакансиям ревьюера</a></button>
+          <button type="button" className="tasks__button button"><a className="tasks__link" href="#">К вакансиям ревьюера</a></button>
         </div>
       </div>
     </section>

@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './Header/Header';
+import Intro from './Intro/Intro';
 import Roles from './Roles/Roles';
 import Tasks from './Tasks/Tasks';
 import Expert from './Expert/Expert';
@@ -11,6 +12,7 @@ function App() {
   return (
     <>
       <Header />
+      <Intro />
       <Tasks />
       <Expert />
       <Faculties />

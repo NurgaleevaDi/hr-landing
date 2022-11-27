@@ -1,6 +1,7 @@
 @import url(./vendor/normalize.css);
 @import url(./components/app.css);
 @import url(./components/Header/Header.css);
+@import url(./components/Intro/Intro.css);
 @import url(./components/Roles/Roles.css);
 @import url(./components/Tasks/Tasks.css);
 @import url(./components/Expert/Expert.css);

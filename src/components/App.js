@@ -8,6 +8,7 @@ import Faculties from './Faculties/Faculties';
 import Footer from './Footer/Footer';
 import Schedule from './Schedule/Schedule';
 import Request from './Request/Request';
+import Quiz from './Quiz/Quiz';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Header />
       <Intro />
       <Tasks />
+      <Quiz />
       <Expert />
       <Faculties />
       <Roles />

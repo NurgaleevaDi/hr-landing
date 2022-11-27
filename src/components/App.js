@@ -3,6 +3,7 @@ import Roles from './Roles/Roles';
 import Tasks from './Tasks/Tasks';
 import Expert from './Expert/Expert';
 import Footer from './Footer/Footer';
+import Schedule from './Schedule/Schedule';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Tasks />
       <Expert />
       <Roles />
+      <Schedule />
       <Footer />
     </>
   );

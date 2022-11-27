@@ -3,7 +3,6 @@ import React from 'react';
 function Footer() {
   return (
     <footer className="footer">
-
       <div className='footer__container-first'>
         <div className="footer__contacts">
           <p className="footer__tel">8-800-700-93-29</p>
@@ -21,7 +20,6 @@ function Footer() {
           <li className='footer__nav-link'><a className='link' href="https://code.s3.yandex.net/License%20YSDA.pdf" target="_blank" rel="noreferrer">Лицензия</a></li>
         </ul>
       </div>
-
       <div className='footer__container-second'>
         <p className='footer__copyright'>&copy;2022 АНО ДПО «ШАД», ООО «Яндекс»</p>
         <div className='footer__legal-info'>
@@ -34,7 +32,6 @@ function Footer() {
             профессионального образования также выдается АНО ДПО «ШАД».</p>
         </div>
       </div>
-
     </footer>
   );
 }

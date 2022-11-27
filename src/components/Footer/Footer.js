@@ -14,11 +14,11 @@ function Footer() {
         </div>
         <ul className='footer__nav list'>
           <li className='footer__nav-link'><a className='link' href="https://yandex.ru/support/praktikum/feedback.html" target="_blank">Помощь</a></li>
-          <li className='footer__nav-link link'><a className='link' href="https://practicum.yandex.ru/job" target="_blank">Вакансии</a></li>
-          <li className='footer__nav-link link'><a className='link' href="https://practicum.yandex.ru/employment/" target="_blank">Для работодателей</a></li>
-          <li className='footer__nav-link link'><a className='link' href="https://practicum.yandex.ru/reviews" target="_blank">Отзывы</a></li>
-          <li className='footer__nav-link link'><a className='link' href="https://yandex.ru/legal/practicum_termsofuse/" target="_blank">Правовая информация</a></li>
-          <li className='footer__nav-link link'><a className='link' href="https://code.s3.yandex.net/License%20YSDA.pdf" target="_blank">Лицензия</a></li>
+          <li className='footer__nav-link'><a className='link' href="https://practicum.yandex.ru/job" target="_blank">Вакансии</a></li>
+          <li className='footer__nav-link'><a className='link' href="https://practicum.yandex.ru/employment/" target="_blank">Для работодателей</a></li>
+          <li className='footer__nav-link'><a className='link' href="https://practicum.yandex.ru/reviews" target="_blank">Отзывы</a></li>
+          <li className='footer__nav-link'><a className='link' href="https://yandex.ru/legal/practicum_termsofuse/" target="_blank">Правовая информация</a></li>
+          <li className='footer__nav-link'><a className='link' href="https://code.s3.yandex.net/License%20YSDA.pdf" target="_blank">Лицензия</a></li>
         </ul>
       </div>
 

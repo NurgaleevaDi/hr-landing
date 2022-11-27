@@ -1,9 +1,10 @@
 import React from 'react';
+import Quiz from './Quiz/Quiz';
 
 function App() {
   return (
     <>
-      <h1>Hello</h1>
+      <Quiz />
     </>
   );
 }

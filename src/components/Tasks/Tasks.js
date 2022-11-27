@@ -1,5 +1,5 @@
 import React from 'react';
-import chair from '../../images/chair.png';
+import chair from './images/chair.png';
 
 function Tasks() {
   return (

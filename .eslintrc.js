@@ -18,5 +18,8 @@ module.exports = {
     'react',
   ],
   rules: {
+    'no-console': 'off',
+    'comma-dangle': 'off',
+    'linebreak-style': 'off',
   },
 };

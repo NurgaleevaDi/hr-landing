@@ -1,0 +1,37 @@
+.vacancies {
+   padding: 0 108px;
+   margin: 0 auto;
+}
+
+.vacancies__title {
+   padding-bottom: 0;
+   margin: 0 0 50px;
+   color: #000000;
+   font-size: 40px;
+   line-height: 46.88px;
+   font-weight: 400;
+}
+
+.vacancies__container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0;
+   margin: 0 auto 30px;
+}
+
+.vacancies__button {
+   text-align: center;
+   background-color: #CA8E8E;
+   color: #000000;
+   border-radius: 15px;
+   border: 0;
+   margin: 0;
+   padding: 17px 228px;
+   font-size: 16px;
+   cursor: pointer;
+}
+
+.vacancies__button_disabled {
+   background-color: #D9D9D9;
+}

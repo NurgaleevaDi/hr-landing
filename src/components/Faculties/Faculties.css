@@ -20,7 +20,7 @@
    gap: 41px 35px;
 }
 
-.faculties__profession {
+.faculties__profession-front {
    position: relative;
    display: flex;
    justify-content: center;
@@ -34,19 +34,15 @@
    border-radius: 15px;
    list-style-type: none;
    background-color: #D9D9D9;
+   cursor: pointer;
 }
 
-.faculties__link {
-   margin: 0;
-   padding: 0;
-   position: absolute;
-   bottom: 16px;
-   right: 34px;
-}
-
-.faculties__link-icon {
+.faculties__button-icon {
    margin: 0;
    padding: 0;
    width: 36px;
    height: 30px;
+   position: absolute;
+   bottom: 16px;
+   right: 34px;
 }

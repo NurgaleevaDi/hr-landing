@@ -7,6 +7,7 @@ import Expert from './Expert/Expert';
 import Faculties from './Faculties/Faculties';
 import Footer from './Footer/Footer';
 import Schedule from './Schedule/Schedule';
+import Request from './Request/Request';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Faculties />
       <Roles />
       <Schedule />
+      <Request />
       <Footer />
     </>
   );

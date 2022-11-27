@@ -9,7 +9,7 @@ function Footer() {
           <p className="footer__tel">8-800-700-93-29</p>
           <p className="footer__tel-text">Звонок по России бесплатный</p>
           <ul className="footer__contacts-list">
-            <li className="footer__contacts-item"><a className="footer__contacts-link" href="https://thecode.media/" target="_blank">Журнал</a></li>
+            <li className="footer__contacts-item"><a className="footer__contacts-link link" href="https://thecode.media/" target="_blank">Журнал</a></li>
           </ul>
         </div>
         <ul className='footer__nav'>

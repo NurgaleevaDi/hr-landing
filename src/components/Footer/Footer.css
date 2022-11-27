@@ -33,6 +33,15 @@
   grid-column-gap: 170px;
 }
 
+.list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer__nav-link {
+  margin-bottom: 12px;
+}
+
 .footer__container-second {
   display: flex;
   justify-content: space-around;
@@ -40,4 +49,9 @@
 
 .footer__legal-info {
   max-width: 630px;
+}
+
+.link {
+  text-decoration-line: none;
+  color: black;
 }

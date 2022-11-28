@@ -22,8 +22,8 @@ function App() {
       <Faculties />
       <Roles />
       <Schedule />
-      <Request />
       <Vacancies />
+      <Request />
       <Footer />
     </>
   );

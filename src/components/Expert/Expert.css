@@ -9,27 +9,58 @@
   letter-spacing: -0.02em;
 }
 
-.puzzle {
-  position: relative;
-}
-
 .expert__puzzle {
   display: flex;
   justify-content: center;
   margin-bottom: 70px;
 }
-.puzzle-one {
+
+.puzzle {
+  /* position: relative; */
+  /* display: grid;
+  grid-template-columns: 40px 1fr;
+  grid-template-rows: 55px 1fr;
+  grid-area:
+    "span span"; */
   display: flex;
-  min-width: 440px;
-  min-height: 173px;
+  border-radius: 15px;
+}
+
+.puzzle_one {
+  display: flex;
+  width: 440px;
+  height: 173px;
   background-image: url(./images/puzzle-one.png);
-  background-repeat: none;
+  background-repeat: no-repeat;
+  /* background-color: #F89567; */
+}
+
+.puzzle_two {
+  display: flex;
+  margin-left: -38px;
+  width: 458px;
+  /* height: 173px; */
+  background-image: url(./images/puzzle-two.png);
+  background-repeat: no-repeat;
+  /* background-color: #77DFB7; */
+}
+
+.puzzle_three {
+  display: flex;
+  margin-left: -38px;
+  width: 404px;
+  /* height: 173px; */
+  background-image: url(./images/puzzle-three.png);
+  background-repeat: no-repeat;
+  /* background-color: #FADC8E; */
 }
 
 .expert__span {
-  position: absolute;
+  /* position: absolute;
   top: 10px;
-  left: 20px;
+  left: 20px; */
+  margin-top: 10px;
+  margin-left: 20px;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -39,7 +70,7 @@
 
 .puzzle-text {
   margin: auto;
-  margin-left: 90px;
+  margin-left: 50px;
   max-width: 280px;
   font-style: normal;
   font-weight: 500;
@@ -47,18 +78,55 @@
   line-height: 28px;
 }
 
-.puzzle-two {
-  display: flex;
-  margin-left: -38px;
-  min-width: 458px;
-  min-height: 173px;
-  background-image: url(./images/puzzle-two.png);
-}
+@media screen and (max-width: 460px){
+  .expert {
+    max-width: 345px;
+    margin: auto;
+  }
 
-.puzzle-three {
-  display: flex;
-  margin-left: -38px;
-  min-width: 404px;
-  min-height: 173px;
-  background-image: url(./images/puzzle-three.png);
+  .expert__title {
+    font-size: 28px;
+    margin: 0;
+    margin-bottom: 25px;
+  }
+
+  .expert__puzzle {
+    flex-direction: column;
+    margin: auto;
+    max-width: 270px;
+  }
+
+  .puzzle {
+    background-repeat: no-repeat;
+    background-position: cover;
+    width: 100%;
+  }
+
+  .puzzle_one {
+    background-image: url(./images/puzzle-one-mobile.png);
+    height: 202px;
+    margin-bottom: -40px;
+  }
+
+  .puzzle_two {
+    margin: 0;
+    background-image: url(./images/puzzle-two-mobile.png);
+    height: 193px;
+    margin-bottom: -30px;
+  }
+
+  .puzzle_three {
+    margin: 0;
+    background-image: url(./images/puzzle-three-mobile.png);
+    height: 187px;
+  }
+
+  .puzzle-text {
+    margin: 0;
+    margin-top: 55px;
+    margin-right: 30px;
+    text-align: center;
+    font-size: 16px;
+  }
+
 }

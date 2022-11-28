@@ -38,9 +38,11 @@
   font-size: 18px;
   line-height: 125%;
   max-width: 305px;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
   overflow: hidden;
+  text-overflow: ellipsis;
   margin: 0;
   height: 135px;
   margin-bottom: 40px;

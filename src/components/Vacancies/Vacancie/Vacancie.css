@@ -1,0 +1,53 @@
+.vacancie {
+   display: flex;
+   flex-direction: column;
+   width: 376px;
+   padding: 0;
+   margin: 0 auto;
+   border-radius: 15px;
+   background-color: #E7E3DC;
+}
+
+.vacancie__container {
+   padding: 30px 0 30px 35px;
+   min-height: 224px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.vacancie__title {
+   padding: 0;
+   margin: 0;
+   color: #000000;
+   font-size: 36px;
+   line-height: 42.19px;
+   font-weight: 400;
+}
+
+.vacancie__text {
+   padding: 0;
+   margin: 0;
+   color: #000000;
+   font-size: 24px;
+   line-height: 30px;
+   font-weight: 500;
+}
+
+.vacancie__text:first-child {
+   padding-top: 10px;
+}
+
+.vacancie__button {
+   justify-self: center;
+   text-align: center;
+   background-color: #262626;
+   color: #FFFFFF;
+   border-radius: 14px;
+   border: 0;
+   margin: 0 auto 35px;
+   padding: 17px 0;
+   width: 315px;
+   font-size: 16px;
+   cursor: pointer;
+}

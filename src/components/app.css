@@ -6,3 +6,8 @@
    background-color: #ffffff;
    font-weight: 400;
 }
+
+.inner {
+  position: relative;
+  overflow: hidden;
+}

@@ -9,10 +9,12 @@ import Footer from './Footer/Footer';
 import Schedule from './Schedule/Schedule';
 import Request from './Request/Request';
 import Quiz from './Quiz/Quiz';
+import Teachers from './Teachers/Teachers';
+import './app.css';
 
 function App() {
   return (
-    <>
+    <div className="inner">
       <Header />
       <Intro />
       <Tasks />
@@ -21,9 +23,10 @@ function App() {
       <Faculties />
       <Roles />
       <Schedule />
+      <Teachers />
       <Request />
       <Footer />
-    </>
+    </div>
   );
 }
 

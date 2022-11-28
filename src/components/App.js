@@ -11,6 +11,7 @@ import Request from './Request/Request';
 import Quiz from './Quiz/Quiz';
 import Teachers from './Teachers/Teachers';
 import './app.css';
+import Vacancies from './Vacancies/Vacancies';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Roles />
       <Schedule />
       <Teachers />
+      <Vacancies />
       <Request />
       <Footer />
     </div>

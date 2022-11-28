@@ -1,33 +1,60 @@
+.tasks {
+  max-width: 1225px;
+  margin: auto;
+}
 
 .tasks__container {
   box-sizing: border-box;
   margin: auto;
   margin-bottom: 30px;
-  padding-left: 50px;
-  padding-right: 100px;
-  display: flex;
-  justify-content: space-between;
   align-items: center;
-  max-width: 1225px;
+  width: 100%;
   min-height: 345px;
   background-color: #D9D9D9;
   border-radius: 15px;
+  display: grid;
+
+}
+
+.tasks__container_first{
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: 180px 1fr;
+  grid-template-areas:
+  "info list img"
+  "button list img";
+  /* column-gap: 55px; */
+  padding-left: 50px;
+  padding-right: 100px;
+}
+
+.tasks__container_second{
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: 180px 1fr;
+  grid-template-areas:
+  "img list info"
+  "img list button";
+  column-gap: 110px;
+  padding-right: 50px;
+  padding-left: 100px;
 }
 
 .tasks__image {
   max-height: 290px;
+  grid-area: img;
 }
 
 .tasks__info {
   margin: auto 0;
+  grid-area: info;
 }
 
 .tasks__title {
   margin: 0;
-  margin-bottom: 24px;
+  margin-bottom: 20px;
+  margin-top: 55px;
   font-style: normal;
   font-weight: 400;
-  font-size: 40px;
+  font-size: 39px;
   line-height: 1.17;
 }
 
@@ -43,6 +70,7 @@
 .tasks__list {
   margin: auto 0;
   padding: 0;
+  grid-area: list;
 }
 
 .tasks__item {
@@ -64,7 +92,8 @@
   background-color: #262626;
   border-radius: 14px;
   min-height: 60px;
-  min-width: 284px;
+  max-width: 320px;
+  grid-area: button;
 }
 
 .tasks__link {
@@ -74,4 +103,52 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1.25;
+}
+
+@media screen and (max-width: 460px) {
+  .tasks {
+    max-width: 345px;
+    margin: auto;
+  }
+
+  .tasks__container {
+    max-width: 345px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+  }
+
+  .tasks__image {
+    max-height: 200px;
+    margin-bottom: 15px;
+  }
+
+  .tasks__info {
+    margin: 0;
+    width: 100%;
+  }
+
+  .tasks__title {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 28px;
+  }
+
+  .tasks__text {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .tasks__list {
+    margin-bottom: 15px;
+  }
+
+  .tasks__item {
+    font-size: 16px;
+  }
+
+  .tasks__button {
+    min-width: 283px;
+  }
+
 }

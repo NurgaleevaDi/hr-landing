@@ -12,13 +12,13 @@ function Faculties() {
          <h2 className="faculties__title">Наши факультеты</h2>
 
          <ul className="faculties__grid">
-            <li className="faculties__profession-front faculties__profession-front_hidden">
+            <li className="faculties__profession-front">
                   <img className="faculties__image" src={image1} alt="Изображение" />
                   Программирование
                   <button className="faculties__button-front" alt="Изображение стрелки"/>
             </li>
 
-            <li className="faculties__profession-back ">Направление для всех, кто хочет развиваться
+            <li className="faculties__profession-back faculties__profession-back_hidden">Направление для всех, кто хочет развиваться
             в сфере программирования вне зависимости от прошлого опыта.
             Учим разработке и тестированию в условиях, которые имитируют реальную работу:
             с проектами, спринтами и дедлайнами.
@@ -27,13 +27,13 @@ function Faculties() {
                   <button className="faculties__button-back" alt="К вакансиям">К вакансиям</button>
             </li>
 
-            <li className="faculties__profession-front faculties__profession-front_hidden">
+            <li className="faculties__profession-front">
                   <img className="faculties__image" src={image2} alt="Изображение" />
                   Анализ данных
                   <button className="faculties__button-front" alt="Изображение стрелки"/>
             </li>
 
-            <li className="faculties__profession-back ">Курсы по анализу данных подойдут всем,
+            <li className="faculties__profession-back faculties__profession-back_hidden ">Курсы по анализу данных подойдут всем,
             кому интересно работать с цифрами и аналитикой.
             В эту область входят несколько направлений: предобработка и анализ,
             Data Science и Data Engineering,
@@ -44,13 +44,13 @@ function Faculties() {
                   <button className="faculties__button-back" alt="К вакансиям">К вакансиям</button>
             </li>
 
-            <li className="faculties__profession-front faculties__profession-front_hidden">
+            <li className="faculties__profession-front">
                   <img className="faculties__image" src={image3} alt="Изображение" />
                   Дизайн
                   <button className="faculties__button-front" alt="Изображение стрелки"/>
             </li>
 
-            <li className="faculties__profession-back ">Направление подойдёт как новичкам,
+            <li className="faculties__profession-back faculties__profession-back_hidden ">Направление подойдёт как новичкам,
             так и практикующим профессионалам —
             у нас обучаются дизайнеры, UX-писатели и UX-исследователи.
             Учим работать с композицией, цветом, типографикой,
@@ -62,13 +62,13 @@ function Faculties() {
                   <button className="faculties__button-back" alt="К вакансиям">К вакансиям</button>
             </li>
 
-            <li className="faculties__profession-front faculties__profession-front_hidden">
+            <li className="faculties__profession-front">
                   <img className="faculties__image" src={image4} alt="Изображение" />
                   Маркетинг
                   <button className="faculties__button-front" alt="Изображение стрелки"/>
             </li>
 
-            <li className="faculties__profession-back ">Направление для всех, кто хочет учиться маркетингу в интернете.
+            <li className="faculties__profession-back faculties__profession-back_hidden ">Направление для всех, кто хочет учиться маркетингу в интернете.
             На курсах мы учим запускать рекламу и управлять рекламными кампаниями.
             Знакомим с анализом бренда, рассказываем про seo-оптимизацию и email-маркетинг,
             обучаем на реальных примерах из бизнеса. В процессе вас поддержат наставники,
@@ -77,13 +77,13 @@ function Faculties() {
                   <button className="faculties__button-back" alt="К вакансиям">К вакансиям</button>
             </li>
 
-            <li className="faculties__profession-front faculties__profession-front_hidden">
+            <li className="faculties__profession-front">
                   <img className="faculties__image" src={image5} alt="Изображение" />
                   Менеджмент
                   <button className="faculties__button-front" alt="Изображение стрелки"/>
             </li>
             
-            <li className="faculties__profession-back ">Направление для тех, кто начинает или продолжает
+            <li className="faculties__profession-back faculties__profession-back_hidden ">Направление для тех, кто начинает или продолжает
             свой путь в сфере управления — людьми, проектами, продуктами, ресурсами.
             В обучении мы используем проблемно-ориентированный подход, силу данных
             и научно обоснованные методики. Курсы позволяют устроиться на работу в IT

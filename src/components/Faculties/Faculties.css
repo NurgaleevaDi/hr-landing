@@ -1,0 +1,21 @@
+.faculties {
+   min-height: 939px;
+   padding: 0 110px 154px;
+   margin: 0 auto;
+}
+
+.faculties__title {
+   padding-bottom: 36px;
+   margin: 0;
+   color: #000000;
+   font-size: 36px;
+   font-weight: 400;
+}
+
+.faculties__grid {
+   display: grid;
+   margin: 0;
+   padding: 0;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 41px 35px;
+}

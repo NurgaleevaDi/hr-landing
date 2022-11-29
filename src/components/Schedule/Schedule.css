@@ -1,0 +1,34 @@
+.schedule{
+  margin-bottom: 140px;
+  padding-left: 128px;
+  padding-right: 128px;
+}
+.schedule__title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.17;
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+.schedule__list {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.schedule__points {
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  letter-spacing: 0.007em;
+  line-height: 1.33;
+  max-width: 385px;
+}
+
+.schedule__span{
+  font-size: 40px;
+}

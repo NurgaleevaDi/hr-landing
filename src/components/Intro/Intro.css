@@ -1,0 +1,47 @@
+.intro {
+   min-height: 561px;
+   padding: 0;
+   margin: 0 auto 40px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-image: url('./images/intro-image.png');
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+.intro__title {
+   padding: 50px 0 0;
+   text-align: center;
+   margin: 0 0 20px;
+   width: 560px;
+   color: #000000;
+   font-size: 50px;
+   line-height: 55px;
+   font-weight: 400;
+}
+
+.intro__text {
+   padding: 0;
+   text-align: center;
+   margin: 0 0 30px;
+   width: 414px;
+   color: #000000;
+   font-size: 18px;
+   line-height: 22.5px;
+   font-weight: 400;
+}
+
+.intro__button {
+   text-align: center;
+   background-color: #262626;
+   color: #FFFFFF;
+   border-radius: 14px;
+   border: 0;
+   margin: 0;
+   padding: 20px 46px;
+   font-size: 16px;
+   line-height: 20px;
+   font-weight: 500;
+   cursor: pointer;
+}

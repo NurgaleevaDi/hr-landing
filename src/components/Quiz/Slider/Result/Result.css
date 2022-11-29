@@ -1,0 +1,50 @@
+.result {
+  position: absolute;
+  top: calc(50% - 270px);
+  width: 385px;
+  height: 470px;
+  box-shadow: 25px 25px 100px rgba(0,0,0,0.2);
+  border-radius: 15px;
+  transition: all 1.5s ease;
+  opacity: 1;
+  visibility: visible;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.result__title {
+  font-family: 'YS Text';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  margin: 43px 74px 139px 30px;
+}
+
+.result__btn {
+  width: 325px;
+  height: 60px;
+  padding: 0;
+  border-radius: 14px;
+  background-color: #262626;
+  color: #FFFFFF;
+  cursor: pointer;
+  transition: transform .4s ease;
+}
+
+.result_type_error {
+  background-color: #AAEBD2;
+}
+
+.result__btn:hover {
+  transform: scale(1.05);
+}
+
+.result_type_review {
+  background-color: #FBE5AA;
+}
+
+.result_type_teacher {
+  background-color: #AAEBD2;
+}

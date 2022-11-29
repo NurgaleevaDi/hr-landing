@@ -1,11 +1,27 @@
 import React from 'react';
+import PopupWithForm from '../PopupWithForm/PopupWithForm';
 
 function Request() {
+  const [isPopupWithFormOpen, setIsPopupWithFormOpen] = React.useState(false);
+
+  function handleOpenPopup() {
+    setIsPopupWithFormOpen(!isPopupWithFormOpen);
+  }
+
+  function handleClosePopup() {
+    setIsPopupWithFormOpen(false);
+  }
+
   return (
     <section className="request">
       <h2 className="request__title">Не нашли себя в открытых предложениях?</h2>
       <p className="request__text">Оставьте свои контакты – мы свяжемся с вами в течение нескольких часов</p>
-      <form className="request__form">
+      <button type="button" className="request__button" onClick={handleOpenPopup}>Оставить заявку</button>
+      <PopupWithForm
+        isOpen = {isPopupWithFormOpen}
+        onClose = {handleClosePopup}
+      />
+      {/* <form className="request__form">
         <div className="request__info">
           <div className="request__input-block">
             <input type="text" className="request__input" placeholder="Имя"/>
@@ -32,7 +48,8 @@ function Request() {
             <div className="request__input-block">
               <input type="url" className="request__input" placeholder="Ссылка на резюме"/>
             </div>
-            <span className="request__span">*Пожалуйста проверьте, что вы открыли доступ к документу</span>
+            <span className="request__span">*Пожалуйста проверьте, что вы открыли доступ
+             к документу</span>
           </div>
         </div>
 
@@ -51,7 +68,7 @@ function Request() {
           </div>
         </div>
 
-      </form>
+      </form> */}
     </section>
   );
 }

@@ -18,9 +18,6 @@
   margin-bottom: 35px;
 }
 
-.request__form {
-
-}
 
 .request__info {
   display: grid;
@@ -80,14 +77,17 @@
   margin-top: 6px;
   font-size: 10px;
 }
-.request__button-block {
-  display: grid;
+.request__block {
+  display: flex;
+  flex-direction: column;
+  max-width: 595px;
+  /* display: grid;
   grid-template-columns: 595px 1fr;
   grid-template-rows: 26px 1fr;
-  column-gap: 35px;
-  grid-template-areas:
+  column-gap: 35px; */
+  /* grid-template-areas:
   "a a"
-  "b c";
+  "b c"; */
   margin-top: 58px;
 
 }
@@ -99,7 +99,7 @@
 }
 
 .request__button {
-  max-width: 280px;
+  min-width: 280px;
   min-height: 60px;
   padding: 0;
   border-radius: 14px;

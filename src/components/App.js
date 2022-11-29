@@ -12,6 +12,7 @@ import Quiz from './Quiz/Quiz';
 import Teachers from './Teachers/Teachers';
 import './app.css';
 import Vacancies from './Vacancies/Vacancies';
+import PopupWithForm from './PopupWithForm/PopupWithForm';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       <Teachers />
       <Vacancies />
       <Request />
+      <PopupWithForm />
       <Footer />
     </div>
   );

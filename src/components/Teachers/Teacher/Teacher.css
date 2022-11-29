@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   width: 385px;
-  height: 560px;
+  height: 680px;
   align-items: center;
   background-color: #D9D9D9;
   row-gap: 15px;
@@ -12,12 +12,56 @@
   overflow: hidden;
 }
 
+.teachers__wrapper {
+  position: relative;
+}
+
+.teachers__desc {
+  display: block;
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+  z-index: 5;
+  font-family: 'YS Text';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 125%;
+  color: #fff;
+  margin: 0;
+  transition: all .3s ease;
+}
+
+.teachers__text-wrapper {
+  background: linear-gradient(180deg, rgba(231, 227, 220, 0) 0%, #AFABA3 100%);
+}
+
+.teachers__quote {
+  display: block;
+  position: absolute;
+  left: 15px;
+  bottom: 61px;
+  font-family: 'YS Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 125%;
+  color: #fff;
+  z-index: 7;
+  margin: 0;
+  transition: all .3s ease;
+}
+
+.hidden {
+  display: none;
+}
+
 .teachers__image {
-  margin-top: 40px;
-  object-fit: contain;
-  width: 305px;
-  height: 250px;
-  border-radius: 15px;
+  margin: 0;
+  object-fit: cover;
+  width: 385px;
+  height: 385px;
+  border-radius: 15px 15px 0px 0px;
 }
 
 .teacher__title {
@@ -40,10 +84,10 @@
   max-width: 305px;
   -webkit-box-orient: vertical;
   display: -webkit-box;
-  -webkit-line-clamp: 6;
+  -webkit-line-clamp: 4;
   overflow: hidden;
   text-overflow: ellipsis;
   margin: 0;
-  height: 135px;
+  height: 90px;
   margin-bottom: 40px;
 }

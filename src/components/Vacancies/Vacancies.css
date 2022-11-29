@@ -17,50 +17,67 @@
 
 .vacancies__container {
    display: flex;
-   justify-content: space-between;
-   align-items: center;
    column-gap: 36px;
    padding: 0;
-   margin: 0 auto 30px;
+   margin-bottom: 35px;
 }
 
 .vacancies__container_s {
-   column-gap: 16px;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 16px;
+  margin: 0 auto 30px;
 }
 
 .vacancies__button {
-   text-align: center;
-   background-size: 200%;
-   background-image: linear-gradient(to left, #D9D9D9 50%, #CA8E8E 50%);
-   background-position: right;
-   color: #000000;
-   border-radius: 15px;
-   border: 0;
-   margin: 0;
-   padding: 17px 0;
-   width: 594px;
-   font-size: 16px;
-   cursor: pointer;
+  text-align: center;
+  color: #000000;
+  border: none;
+  margin: 0;
+  padding: 17px 0;
+  width: 201px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: transparent;
+  font-family: 'YS Text';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  padding: 0;
+  color: #979797;
+  border-bottom: 1px dashed #979797;
+}
+
+.vacancies__button:last-child {
+  max-width: 172px;
 }
 
 .vacancies__button_s {
-   text-align: center;
-   background-size: 200%;
-   background-image: linear-gradient(to left, #D9D9D9 50%, #CA8E8E 50%);
-   background-position: right;
-   color: #000000;
-   width: 230px;
-   border-radius: 15px;
-   border: 0;
-   margin: 0;
-   padding: 16px 0;
-   font-size: 16px;
-   cursor: pointer;
+  text-align: center;
+  color: #000000;
+  width: 230px;
+  border-radius: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  margin: 0;
+  padding: 16px 0;
+  cursor: pointer;
+  font-family: 'YS Text';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 125%;
+  transition: all .1s ease;
 }
 
 .vacancies__button_active {
-  transition: all 0.4s ease;
-  background-position: left;
+  color: #5686E3;
+  border-bottom: 1px solid #5686E3;
+}
+
+.vacancies__button_s_active {
+  border: 2px solid #000000;
+  box-shadow: inset -5px -5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .vacancies__grid {
@@ -69,6 +86,12 @@
    padding: 0;
    grid-template-columns: 1fr 1fr 1fr;
    gap: 35px;
+}
+
+.vacancies__flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .vacancies__more-button {

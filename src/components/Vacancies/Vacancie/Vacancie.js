@@ -1,7 +1,9 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
 
-function Vacancie({ faculty, salary, description }) {
+function Vacancie({
+  faculty, salary, description, link
+}) {
   return (
       <section className="vacancie">
         <div className="vacancie__container">
@@ -10,7 +12,7 @@ function Vacancie({ faculty, salary, description }) {
             <p className="vacancie__text">{description}</p>
           </p>
         </div>
-        <button className="vacancie__button">Подробнее</button>
+        <a target="_blank" href={link} className="vacancie__button" rel="noreferrer">Подробнее</a>
       </section >
   );
 }

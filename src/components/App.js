@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import Header from './Header/Header';
 import Intro from './Intro/Intro';
 import Roles from './Roles/Roles';
@@ -19,6 +19,8 @@ function App() {
   const vacancies = useRef(null);
   const tasks = useRef(null);
 
+  const [isPopupWithFormOpen, setIsPopupWithFormOpen] = useState(false);
+
   const navButtonHandler = (ref) => {
     ref.current.scrollIntoView({ behavior: 'smooth' });
   };
@@ -31,14 +33,16 @@ function App() {
       tasks={tasks}/>
       <Intro onRedirectButton={navButtonHandler} quiz={quiz} />
       <Tasks componentRef={tasks}/>
-      <Quiz componentRef={quiz} />
+      <Quiz onRedirectButton={navButtonHandler} componentRef={quiz} vacancies={vacancies}
+      setIsPopupWithFormOpen={setIsPopupWithFormOpen}/>
       <Expert />
       <Faculties />
       <Roles />
       <Schedule />
       <Teachers />
       <Vacancies componentRef={vacancies}/>
-      <Request />
+      <Request isPopupWithFormOpen={isPopupWithFormOpen}
+       setIsPopupWithFormOpen={setIsPopupWithFormOpen} />
       <PopupWithForm />
       <Footer />
     </div>

@@ -16,7 +16,8 @@ import PopupWithForm from './PopupWithForm/PopupWithForm';
 
 function App() {
   const quiz = useRef(null);
-  const request = useRef(null);
+  const vacancies = useRef(null);
+  const tasks = useRef(null);
 
   const navButtonHandler = (ref) => {
     ref.current.scrollIntoView({ behavior: 'smooth' });
@@ -24,17 +25,20 @@ function App() {
 
   return (
     <div className="inner">
-      <Header onRedirectButton={navButtonHandler} request={request} />
+      <Header
+      onRedirectButton={navButtonHandler}
+      vacancies={vacancies}
+      tasks={tasks}/>
       <Intro onRedirectButton={navButtonHandler} quiz={quiz} />
-      <Tasks />
+      <Tasks componentRef={tasks}/>
       <Quiz componentRef={quiz} />
       <Expert />
       <Faculties />
       <Roles />
       <Schedule />
       <Teachers />
-      <Vacancies />
-      <Request componentRef={request} />
+      <Vacancies componentRef={vacancies}/>
+      <Request />
       <PopupWithForm />
       <Footer />
     </div>

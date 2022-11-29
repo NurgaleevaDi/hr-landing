@@ -1,9 +1,9 @@
 import React from 'react';
 import chair from './images/chair.png';
 
-function Tasks() {
+function Tasks({ componentRef }) {
   return (
-    <section className="tasks">
+    <section className="tasks" ref={componentRef}>
       <div className="tasks__container tasks__container_first">
         <div className="tasks__info">
           <h2 className="tasks__title">Задачи наставника</h2>

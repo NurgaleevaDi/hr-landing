@@ -1,12 +1,8 @@
-/* eslint-disable no-unused-vars */
-import React, { useState } from 'react';
+import React from 'react';
 import Slider from './Slider/Slider';
 import './Quiz.css';
 
-const Quiz = () => {
-  const [slideIndex, setSlideIndex] = useState(0);
-
-  return (
+const Quiz = () => (
     <section className="quiz">
       <div className="quiz__inner">
         <Slider />
@@ -16,7 +12,6 @@ const Quiz = () => {
         </div>
       </div>
     </section>
-  );
-};
+);
 
 export default Quiz;

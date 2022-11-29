@@ -30,7 +30,9 @@
 
 .vacancies__button {
    text-align: center;
-   background-color: #CA8E8E;
+   background-size: 200%;
+   background-image: linear-gradient(to left, #D9D9D9 50%, #CA8E8E 50%);
+   background-position: right;
    color: #000000;
    border-radius: 15px;
    border: 0;
@@ -43,7 +45,9 @@
 
 .vacancies__button_s {
    text-align: center;
-   background-color: #CA8E8E;
+   background-size: 200%;
+   background-image: linear-gradient(to left, #D9D9D9 50%, #CA8E8E 50%);
+   background-position: right;
    color: #000000;
    width: 230px;
    border-radius: 15px;
@@ -54,8 +58,9 @@
    cursor: pointer;
 }
 
-.vacancies__button_disabled {
-   background-color: #D9D9D9;
+.vacancies__button_active {
+  transition: all 0.4s ease;
+  background-position: left;
 }
 
 .vacancies__grid {

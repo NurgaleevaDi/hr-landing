@@ -107,6 +107,7 @@
   background-color: #262626;
   color: white;
   grid-area: c;
+  cursor: pointer;
 }
 
 .request__agreement {

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import Header from './Header/Header';
 import Intro from './Intro/Intro';
 import Roles from './Roles/Roles';
@@ -15,19 +15,26 @@ import Vacancies from './Vacancies/Vacancies';
 import PopupWithForm from './PopupWithForm/PopupWithForm';
 
 function App() {
+  const quiz = useRef(null);
+  const request = useRef(null);
+
+  const navButtonHandler = (ref) => {
+    ref.current.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <div className="inner">
-      <Header />
-      <Intro />
+      <Header onRedirectButton={navButtonHandler} request={request} />
+      <Intro onRedirectButton={navButtonHandler} quiz={quiz} />
       <Tasks />
-      <Quiz />
+      <Quiz componentRef={quiz} />
       <Expert />
       <Faculties />
       <Roles />
       <Schedule />
       <Teachers />
       <Vacancies />
-      <Request />
+      <Request componentRef={request} />
       <PopupWithForm />
       <Footer />
     </div>

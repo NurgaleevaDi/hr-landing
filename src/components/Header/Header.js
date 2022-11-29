@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import headerLogo from './images/header-logo.svg';
 import NavBurger from './NavBurger/NavBurger';
 
-function Header() {
+function Header({ onRedirectButton, request }) {
   const [isOpen, setIsisOpen] = useState(false);
 
   function onClick() {
@@ -17,7 +17,7 @@ function Header() {
       <header className="header">
         <img className="header__logo" src={headerLogo} alt="Лого" />
         <div className="header__container">
-        <button className="header__redirect-button">Кто такой наставник?</button>
+          <button className="header__redirect-button" onClick={() => onRedirectButton(request)}>Кто такой наставник?</button>
           <button className="header__redirect-button">Кто такой ревьюер?</button>
           <button className="header__redirect-button">Отзывы</button>
           <button className="header__button">Смотреть предложения о работе</button>

@@ -7,7 +7,7 @@ import Empty from './empty/Empty';
 const btns = ['Программирование', 'Аналитика', 'Дизайн', 'Маркетинг', 'Менеджмент',];
 const profBtns = ['Наставники', 'Ревьюеры'];
 
-function Vacancies() {
+function Vacancies({ componentRef }) {
   const [btn, setBtn] = useState(0);
   const [profession, setProfession] = useState(0);
 
@@ -40,8 +40,8 @@ function Vacancies() {
   console.log(`${profession} profession`);
 
   return (
-    <section className="vacancies">
-      <h2 className="vacancies__title">Сотрудничество</h2>
+    <section className="vacancies" ref={componentRef}>
+      <h2 className="vacancies__title">Открытые вакансии</h2>
       <div className="vacancies__container">
         {profBtns.map((item, index) => <button key={index} className={`vacancies__button ${btn === index ? 'vacancies__button_active' : ''}`} onClick={() => handleOnClick(index)}>{item}</button>)}
       </div>

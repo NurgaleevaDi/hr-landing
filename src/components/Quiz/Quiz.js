@@ -2,8 +2,8 @@ import React from 'react';
 import Slider from './Slider/Slider';
 import './Quiz.css';
 
-const Quiz = () => (
-    <section className="quiz">
+const Quiz = ({ componentRef }) => (
+    <section className="quiz" ref={componentRef}>
       <div className="quiz__inner">
         <Slider />
         <div className="quiz__description">

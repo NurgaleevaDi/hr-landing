@@ -46,11 +46,11 @@ function PopupWithForm(props) {
                   Перечислите набор технологий, которыми вы владеете и уровень владения каждой
                 </p>
                 <div className="request__input-block request__block_long">
-                  <input type="text" className="request__input" placeholder="Например..."/>
+                  <input type="text" className="request__input request__input_long" placeholder="Например..."/>
                 </div>
                 <div className="request__agreement">
                   <input type="checkbox" name="agreement" id="agreement" value="1" required/>
-                  <label htmlFor="agreement"> Я даю согласие АНО ДПО «ШАД» и ООО «ЯНДЕКС» на обработку
+                  <label className="request__agreement_text" htmlFor="agreement"> Я даю согласие АНО ДПО «ШАД» и ООО «ЯНДЕКС» на обработку
                     указанных данных для целей рассмотрения анкеты и обратной связи по ней.</label>
                 </div>
               </div>

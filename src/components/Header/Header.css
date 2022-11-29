@@ -118,7 +118,7 @@
 .header__burger-class_clicked:nth-child(2) {
    top: 22px;
    opacity: 0;
-   left: -60px;
+   left: 30px;
 }
 
 .header__burger-class_clicked:nth-child(3) {

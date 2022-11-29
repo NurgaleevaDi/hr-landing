@@ -12,49 +12,55 @@
 
 .card1 {
   background: #D9D9D9;
-  z-index: 8;
+  z-index: 15;
 }
 
 .card2 {
   top: calc(50% - 230px);
   background: #ABABAB;
-  z-index: 7;
+  z-index: 14;
 }
 
 .card3 {
   top: calc(50% - 270px);
   background: #636060;
-  z-index: 6;
+  z-index: 13;
 }
 
 .card4 {
   top: calc(50% - 270px);
   background: burlywood;
-  z-index: 5;
+  z-index: 12;
 }
 
 .card5 {
   top: calc(50% - 270px);
   background: blueviolet;
-  z-index: 4;
+  z-index: 11;
 }
 
 .card6 {
   top: calc(50% - 270px);
   background-color: pink;
-  z-index: 3;
+  z-index: 10;
 }
 
 .card7 {
   top: calc(50% - 270px);
   background-color: aqua;
-  z-index: 2;
+  z-index: 9;
 }
 
 .card8 {
   top: calc(50% - 270px);
   background-color: yellowgreen;
-  z-index: 1;
+  z-index: 8;
+}
+
+.card9 {
+  top: calc(50% - 270px);
+  background-color: yellowgreen;
+  z-index: 7;
 }
 
 .card__rotate_left {

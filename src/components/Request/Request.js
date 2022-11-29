@@ -1,9 +1,8 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
 import PopupWithForm from '../PopupWithForm/PopupWithForm';
 
-function Request({ componentRef }) {
-  const [isPopupWithFormOpen, setIsPopupWithFormOpen] = React.useState(false);
-
+function Request({ componentRef, isPopupWithFormOpen, setIsPopupWithFormOpen }) {
   function handleOpenPopup() {
     setIsPopupWithFormOpen(!isPopupWithFormOpen);
   }

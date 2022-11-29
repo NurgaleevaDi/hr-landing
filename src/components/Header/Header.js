@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React, { useState } from 'react';
 import headerLogo from './images/header-logo.svg';
 import NavBurger from './NavBurger/NavBurger';

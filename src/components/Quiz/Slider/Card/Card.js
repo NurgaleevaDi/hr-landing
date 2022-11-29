@@ -35,7 +35,7 @@ const Card = ({
   <li className={handleBtns(num)}>
     <div className="card__text-wrapper">
       <h3 className="card__title">{title}</h3>
-      {num < 0 ? <p className="card__nums">{`${num + 1}/8`}</p> : null}
+      {num <= 7 ? <p className="card__nums">{`${num + 1}/8`}</p> : null}
     </div>
     <p className="card__text">{text}</p>
     <div className="card__buttons-wrapper">

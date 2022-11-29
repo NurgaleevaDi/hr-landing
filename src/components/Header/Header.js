@@ -20,7 +20,7 @@ function Header() {
         <button className="header__redirect-button">Кто такой наставник?</button>
           <button className="header__redirect-button">Кто такой ревьюер?</button>
           <button className="header__redirect-button">Отзывы</button>
-          <button className="header__button">Смотреть предложения о работе</button>
+          <button className="header__button">Смотреть предложения</button>
         </div>
         <div className="header__burger-menu" onClick={isOpen ? onClose : onClick}>
           <span className={`header__burger-class ${isOpen ? 'header__burger-class_clicked' : 'header__burger-class_unclicked'}`}></span>

@@ -49,6 +49,12 @@
    cursor: pointer;
 }
 
+.header__redirect-button:hover {
+   color: #5686E3;
+   transition: 0.6s ease;
+}
+
+
 .header__button {
    color: #000000;
    background-color: transparent;
@@ -60,6 +66,17 @@
    font-size: 16px;
    line-height: 24px;
    cursor: pointer;
+}
+
+.header__button:hover {
+   box-shadow: 0px 5px 4px 0px #2C3D4926;
+   transition: 0.6s ease;
+}
+
+.header__button:active {
+   color: #FFFFFF;
+   background-color: #000000;
+   transition: 0.6s ease;
 }
 
 /* Burger menu */

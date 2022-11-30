@@ -39,10 +39,10 @@ function App() {
       <Faculties />
       <Roles />
       <Schedule />
-      <Teachers />
       <Vacancies componentRef={vacancies}/>
+      <Teachers />
       <Request isPopupWithFormOpen={isPopupWithFormOpen}
-       setIsPopupWithFormOpen={setIsPopupWithFormOpen} />
+        setIsPopupWithFormOpen={setIsPopupWithFormOpen} />
       <PopupWithForm />
       <Footer />
     </div>

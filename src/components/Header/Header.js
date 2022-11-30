@@ -18,7 +18,7 @@ function Header({
 
   return (
       <header className="header">
-        <img className="header__logo" src={headerLogo} alt="Лого" />
+        <a target="_blank" href="https://practicum.yandex.ru/" className="header__logo" rel="noreferrer"><img src={headerLogo} alt="Лого" /></a>
         <div className="header__container">
           <button className="header__redirect-button" onClick={() => onRedirectButton(tasks)}>Кто такой наставник?</button>
           <button className="header__redirect-button" onClick={() => onRedirectButton(tasks)}>Кто такой ревьюер?</button>

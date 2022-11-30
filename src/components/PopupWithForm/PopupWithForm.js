@@ -10,16 +10,33 @@ function PopupWithForm(props) {
           <div className="request__form-wrapper">
             <button type="button" className="popup__close-button" onClick={props.onClose}></button>
             <form className="request__form">
-              <h2 className="request__form-title">Оставьте свои контакты — мы свяжемся с вами в течение нескольких часов</h2>
+              <h2 className="request__form-title">Оставьте свои контакты — мы свяжемся с вами в&nbsp;течение нескольких часов</h2>
               <div className="request__info">
                 <div className="request__input-block">
-                  <input type="text" className="request__input" placeholder="Имя"/>
+                  <input
+                    type="text"
+                    className="request__input"
+                    placeholder="Имя"
+                    required
+                    minLength="2"
+                    maxLength="30"
+                  />
                 </div>
                 <div className="request__input-block">
-                  <input type="tel" className="request__input" placeholder="+7 --- --- -- --" />
+                  <input
+                    type="tel"
+                    className="request__input"
+                    placeholder="+7 --- --- -- --"
+                    required
+                  />
                 </div>
                 <div className="request__input-block">
-                  <input type="email" className="request__input" placeholder="Эл.адрес" />
+                  <input
+                    type="email"
+                    className="request__input"
+                    placeholder="Эл.адрес"
+                    required
+                  />
                 </div>
                 <select className="request__input_select" size="1">
                   <option selected disabled>Какая роль Вам ближе?</option>
@@ -35,7 +52,11 @@ function PopupWithForm(props) {
                 </select>
                 <div className="request__container">
                   <div className="request__input-block">
-                    <input type="url" className="request__input" placeholder="Ссылка на резюме"/>
+                    <input
+                      type="url"
+                      className="request__input"
+                      placeholder="Ссылка на резюме"
+                    />
                   </div>
                   <span className="request__span">*Пожалуйста проверьте, что вы открыли доступ
                     к документу</span>

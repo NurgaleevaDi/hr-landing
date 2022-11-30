@@ -6,7 +6,7 @@
 .schedule__title {
   font-style: normal;
   font-weight: 400;
-  font-size: 40px;
+  font-size: 48px;
   line-height: 1.17;
   margin: 0;
   margin-bottom: 50px;
@@ -18,10 +18,11 @@
   list-style: none;
   justify-content: space-between;
   padding: 0;
+  margin: 0;
 }
 
 .schedule__points {
-  text-align: center;
+  text-align: start;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -31,24 +32,20 @@
   margin-right: 35px;
 }
 
-.schedule__points:last-child{
+.schedule__points:last-child {
   margin-right: 0px;
 }
 
-.schedule__span{
+.schedule__span {
   font-size: 40px;
+  color: #5686E3;
+
 }
 
-.schedule__span_one{
-  color: #F89567;
-}
-
-.schedule__span_two {
-  color: #FADC8E;
-}
-
-.schedule__span_three {
-  color: #A5DE83;
+.schedule__text {
+  margin: 0;
+  font-size: 24px;
+  line-height: 125%;
 }
 
 @media screen and (max-width: 460px) {

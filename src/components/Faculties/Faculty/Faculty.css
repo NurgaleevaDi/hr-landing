@@ -18,13 +18,13 @@
 }
 
 .faculties__profession-front:hover {
-  box-shadow: 25px -10px 40px rgba(0,0,0,0.5);
+  box-shadow: 25px -10px 40px rgba(0, 0, 0, 0.5);
   transform: scale(1.05);
   transition: all 0.3s ease-in;
 }
 
 .faculties__profession-back:hover {
-  box-shadow: 25px -10px 40px rgba(0,0,0,0.5);
+  box-shadow: 25px -10px 40px rgba(0, 0, 0, 0.5);
   transform: scale(1.05);
   transition: all 0.3s ease-in;
 }
@@ -61,6 +61,7 @@
 .faculties__image {
   margin: 0;
   padding: 22px 0 0;
+  font-family: YS Text;
 }
 
 .faculties__profession-back {

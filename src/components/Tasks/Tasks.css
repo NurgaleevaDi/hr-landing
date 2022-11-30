@@ -20,8 +20,11 @@
   border-radius: 15px;
   max-width: 595px;
   box-sizing: border-box;
-  box-shadow: 15px 15px 20px #8F9DA7;
-  box-shadow: -15px -15px 20px #8F9DA7 0;
+  box-shadow:
+    15px -15px 20px rgba(143, 157, 167, 0.05),
+    -15px 15px 20px rgba(143, 157, 167, 0.05),
+    -15px -15px 20px rgba(143, 157, 167, 0.05),
+    15px 15px 20px rgba(143, 157, 167, 0.05);
   display: flex;
   flex-direction: column;
 

@@ -83,6 +83,10 @@
   display: flex;
 }
 
+.request__input-block:active {
+  border: 1px solid #000;
+}
+
 .request__block_long {
   min-width: 595px;
   min-height: 124px;
@@ -101,6 +105,11 @@
   font-size: 16px;
   line-height: 1.25;
   color: rgba(0, 0, 0, 0.5);
+}
+
+.request__input:active {
+
+
 }
 
 .request__input_long {

@@ -8,7 +8,7 @@ function Tasks({ componentRef }) {
     <section className="tasks" ref={componentRef}>
       <div className="tasks__container tasks__container_first">
         <h2 className="tasks__title">Задачи наставника</h2>
-        <ul className='tasks__list list'>
+        <ul className="tasks__list list">
           <li className="tasks__item">Помогать студентам ставить цели</li>
           <li className="tasks__item">Рефлексировать и делать выводы</li>
           <li className="tasks__item">Отвечать на их вопросы в чате</li>
@@ -17,7 +17,7 @@ function Tasks({ componentRef }) {
           <li className="tasks__item">Делиться опытом и мотивировать</li>
         </ul>
         <div className="tasks__info">
-          <img className='tasks__image' src={chair} alt="Изображение кресла режиссера"></img>
+          <img className="tasks__image" src={chair} alt="Изображение кресла режиссера"></img>
           <div className="tasks__text-block">
             <p className="tasks__text">Оплата за ведение группы</p>
             <p className="tasks__text">&sim;35 000-50 000 &#8381; в месяц</p>
@@ -38,7 +38,7 @@ function Tasks({ componentRef }) {
             <p className="tasks__text">Оплата за каждое&nbsp;ревью</p>
             <p className="tasks__text">В среднем 35 000&#8381; в месяц</p>
           </div>
-          <img className='tasks__image tasks__image_second' src={glasses} alt="Очки"></img>
+          <img className="tasks__image tasks__image_second" src={glasses} alt="Очки"></img>
         </div>
         <button type="button" className="tasks__button button"><a className="tasks__link" href="#">Смотреть предложения</a></button>
       </div>

@@ -18,26 +18,22 @@
 .puzzle {
   display: flex;
   border-radius: 15px;
+  min-height: 175px;
 }
 
 .puzzle_one {
-  display: flex;
-  width: 440px;
-  height: 173px;
+  width: 422px;
   background-image: url(./images/puzzle-one.png);
   background-repeat: no-repeat;
 }
 
 .puzzle_two {
-  display: flex;
-  margin-left: -38px;
   width: 458px;
   background-image: url(./images/puzzle-two.png);
   background-repeat: no-repeat;
 }
 
 .puzzle_three {
-  display: flex;
   margin-left: -38px;
   width: 404px;
   background-image: url(./images/puzzle-three.png);
@@ -89,21 +85,21 @@
   }
 
   .puzzle_one {
-    background-image: url(./images/puzzle-one-mobile.png);
+    /* background-image: url(./images/puzzle-one-mobile.png); */
     height: 202px;
     margin-bottom: -40px;
   }
 
   .puzzle_two {
     margin: 0;
-    background-image: url(./images/puzzle-two-mobile.png);
+    /* background-image: url(./images/puzzle-two-mobile.png); */
     height: 193px;
     margin-bottom: -30px;
   }
 
   .puzzle_three {
     margin: 0;
-    background-image: url(./images/puzzle-three-mobile.png);
+    /* background-image: url(./images/puzzle-three-mobile.png); */
     height: 187px;
   }
 

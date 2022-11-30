@@ -1,14 +1,13 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
 
-function PopupWithForm(props) {
-  console.log(props);
+function PopupWithForm({ isOpen, onClose }) {
   return (
-    <div className={props.isOpen ? 'popup popup_opened' : 'popup'}>
+    <div className={`popup ${isOpen ? 'popup_opened' : ''}`}>
       <div className="popup-overlay">
         <div className="popup-content">
           <div className="request__form-wrapper">
-            <button type="button" className="popup__close-button" onClick={props.onClose}></button>
+            <button type="button" className="popup__close-button" onClick={onClose}></button>
             <form className="request__form">
               <h2 className="request__form-title">Оставьте свои контакты — мы свяжемся с вами в&nbsp;течение нескольких часов</h2>
               <div className="request__info">

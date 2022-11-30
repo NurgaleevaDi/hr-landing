@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
-import React, { useState } from 'react';
+import React, { useCallback } from 'react';
 import './Result.css';
 
 const Result = ({
@@ -8,13 +8,13 @@ const Result = ({
 }) => {
   const classes = yes > no ? 'result result_type_review' : 'result result_type_teacher';
 
-  const handleClick = () => {
+  const handleClick = useCallback(() => {
     if (btnText === 'Перейти к форме') {
       setIsPopupWithFormOpen(true);
     } else {
       onRedirectButton(vacancies);
     }
-  };
+  }, [yes, no]);
 
   return (
   <li className={yes === 8 && no === 0 ? 'result result_type_error' : classes}>

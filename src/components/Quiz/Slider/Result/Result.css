@@ -38,7 +38,11 @@
 }
 
 .result__btn:hover {
-  transform: scale(1.05);
+  background-color: #5686E3;
+}
+
+.result__btn:active {
+  background-color: #1C4BA8;
 }
 
 .result_type_review {

@@ -12,7 +12,6 @@ import Quiz from './Quiz/Quiz';
 import Teachers from './Teachers/Teachers';
 import './app.css';
 import Vacancies from './Vacancies/Vacancies';
-import PopupWithForm from './PopupWithForm/PopupWithForm';
 
 function App() {
   const quiz = useRef(null);
@@ -43,7 +42,6 @@ function App() {
       <Teachers />
       <Request isPopupWithFormOpen={isPopupWithFormOpen}
         setIsPopupWithFormOpen={setIsPopupWithFormOpen} />
-      <PopupWithForm />
       <Footer />
     </div>
   );

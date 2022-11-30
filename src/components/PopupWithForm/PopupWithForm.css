@@ -91,11 +91,13 @@
 }
 
 .request__input {
-  width: 90%;
+  width: 100%;
+  border-radius: 14px;
   border: none;
   outline: none;
   padding: 0;
-  margin-left: 16px;
+  padding-left: 16px;
+  /* margin-left: 16px; */
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -103,9 +105,23 @@
   color: rgba(0, 0, 0, 0.5);
 }
 
+.request__input:focus {
+  border: 1px solid #000;
+  color:#000;
+}
+
 .request__input_long {
   padding-top: 15px;
-  margin-bottom: 18px;
+  /* margin-bottom: 18px; */
+  min-height: 109px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.request__input_long:focus {
+  border: 1px solid #000;
+  color: black;
 }
 
 .request__input_select {
@@ -127,6 +143,10 @@
   background-color: transparent;
   -webkit-appearance: none;
   -moz-appearance: none;
+}
+
+.request__input_select:active {
+  border: 1px solid #000;
 }
 
 .request__container {

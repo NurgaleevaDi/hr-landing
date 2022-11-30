@@ -1,7 +1,9 @@
 .roles {
-   min-height: 655px;
-   padding: 0 317px 154px 128px;
+   min-height: 731px;
+   padding: 27px 317px 122px 128px;
    margin: 0 auto;
+   background-image: url(./images/BGimage.svg);
+   background-repeat: no-repeat;
 }
 
 .roles__title {
@@ -22,16 +24,20 @@
 }
 
 .roles__subtitle {
-   max-width: 489px;
+   width: 422px;
    min-height: 108px;
    margin: 0;
-   padding: 29px 93px 32px 31px;
+   padding: 29px 38px 32px 30px;
    font-family: YS Text;
    font-size: 24px;
    font-weight: 400;
    border-radius: 15px;
    list-style-type: none;
-   background-color: #D9D9D9;
+   background-color: #FFFFFF;
+   box-shadow: 15px 15px 20px 0px rgba(143, 157, 167, 0.05),
+      15px -15px 20px 0px rgba(143, 157, 167, 0.05),
+      -15px 15px 20px 0px rgba(143, 157, 167, 0.05),
+      -15px -15px 20px 0px rgba(143, 157, 167, 0.05);
 }
 
 .roles__text {
@@ -40,5 +46,5 @@
    font-size: 16px;
    font-weight: 400;
    border-radius: 15px;
-   background-color: #D9D9D9;
+   background-color: #FFFFFF;
 }

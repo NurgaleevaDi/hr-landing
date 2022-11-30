@@ -5,7 +5,11 @@
    padding: 0;
    margin: 0 auto;
    border-radius: 15px;
-   background-color: #E7E3DC;
+   background-color: #FFFFFF;
+   box-shadow: 15px 15px 20px 0px rgba(143, 157, 167, 0.05),
+      15px -15px 20px 0px rgba(143, 157, 167, 0.05),
+      -15px -15px 20px 0px rgba(143, 157, 167, 0.05),
+      -15px 15px 20px 0px rgba(143, 157, 167, 0.05);
 }
 
 .vacancie__container {

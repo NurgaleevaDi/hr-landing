@@ -1,9 +1,9 @@
 .result {
   position: absolute;
-  top: calc(50% - 270px);
+  top: calc(50% - 250px);
   width: 385px;
   height: 470px;
-  box-shadow: 25px 25px 100px rgba(0,0,0,0.2);
+  box-shadow: 15px -15px 20px rgba(143, 157, 167, 0.05), -15px 15px 20px rgba(143, 157, 167, 0.05), -15px -15px 20px rgba(143, 157, 167, 0.05), 15px 15px 20px rgba(143, 157, 167, 0.05);
   border-radius: 15px;
   transition: all 1.5s ease;
   opacity: 1;

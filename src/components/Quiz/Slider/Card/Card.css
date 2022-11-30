@@ -1,9 +1,8 @@
 .card {
   position: absolute;
-  top: calc(50% - 200px);
+  top: calc(50% - 180px);
   width: 385px;
   height: 470px;
-  box-shadow: 15px -15px 20px rgba(143, 157, 167, 0.05), -15px 15px 20px rgba(143, 157, 167, 0.05), -15px -15px 20px rgba(143, 157, 167, 0.05), 15px 15px 20px rgba(143, 157, 167, 0.05);
   border-radius: 15px;
   transition: all 1.5s ease;
   opacity: 1;
@@ -16,51 +15,55 @@
 }
 
 .card2 {
-  top: calc(50% - 230px);
+  top: calc(50% - 210px);
   background: #BCD6F4;
   z-index: 14;
 }
 
 .card3 {
-  top: calc(50% - 270px);
+  top: calc(50% - 250px);
   background: #9FC1E8;
   z-index: 13;
 }
 
 .card4 {
-  top: calc(50% - 270px);
+  top: calc(50% - 250px);
   background: #fff;
   z-index: 12;
 }
 
 .card5 {
-  top: calc(50% - 270px);
+  top: calc(50% - 250px);
   background: #fff;
   z-index: 11;
 }
 
 .card6 {
-  top: calc(50% - 270px);
+  top: calc(50% - 250px);
   background: #fff;
   z-index: 10;
 }
 
 .card7 {
-  top: calc(50% - 270px);
+  top: calc(50% - 250px);
   background: #fff;
   z-index: 9;
 }
 
 .card8 {
-  top: calc(50% - 270px);
+  top: calc(50% - 250px);
   background: #fff;
   z-index: 8;
 }
 
 .card9 {
-  top: calc(50% - 270px);
+  top: calc(50% - 250px);
   background: #fff;
   z-index: 7;
+}
+
+.card__shadow {
+  box-shadow: 15px -15px 20px rgba(143, 157, 167, 0.05), -15px 15px 20px rgba(143, 157, 167, 0.05), -15px -15px 20px rgba(143, 157, 167, 0.05), 15px 15px 20px rgba(143, 157, 167, 0.05);
 }
 
 .card__rotate_left {

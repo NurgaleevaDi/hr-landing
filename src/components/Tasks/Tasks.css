@@ -105,6 +105,16 @@ margin: 0 auto;
   min-height: 60px;
   padding-left: 53px;
   padding-right: 53px;
+  cursor: pointer;
+  transition: background-color 0.6s;
+}
+
+.tasks__button:hover {
+  background-color: #5686E3;
+}
+
+.tasks__button:active {
+  background-color: #1C4BA8;
 }
 
 .tasks__link {

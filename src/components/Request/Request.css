@@ -32,4 +32,13 @@
   cursor: pointer;
   font-size: 16px;
   line-height: 1.25px;
+  transition: background-color 0.6s;
+}
+
+.request__button:hover {
+  background-color: #5686E3;
+}
+
+.request__button:active {
+  background-color: #1C4BA8;
 }

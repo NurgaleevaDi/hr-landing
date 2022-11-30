@@ -83,10 +83,6 @@
   display: flex;
 }
 
-.request__input-block:focus {
-  border: 1px solid #000;
-}
-
 .request__block_long {
   min-width: 595px;
   min-height: 124px;
@@ -111,7 +107,7 @@
 
 .request__input:focus {
   border: 1px solid #000;
-
+  color:#000;
 }
 
 .request__input_long {
@@ -125,6 +121,7 @@
 
 .request__input_long:focus {
   border: 1px solid #000;
+  color: black;
 }
 
 .request__input_select {
@@ -146,6 +143,10 @@
   background-color: transparent;
   -webkit-appearance: none;
   -moz-appearance: none;
+}
+
+.request__input_select:active {
+  border: 1px solid #000;
 }
 
 .request__container {

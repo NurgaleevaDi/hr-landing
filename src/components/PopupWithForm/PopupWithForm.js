@@ -40,12 +40,12 @@ function PopupWithForm({ isOpen, onClose }) {
                     required
                   />
                 </div>
-                <select className="request__input_select" size="1">
+                <select defaultValue={'DEFAULT'} className="request__input_select" size="1">
                   <option value="DEFAULT" disabled>Какая роль Вам ближе?</option>
                   <option>Наставник</option>
                   <option>Ревьюер</option>
                 </select>
-                <select className="request__input_select" size="1">
+                <select defaultValue={'DEFAULT'} className="request__input_select" size="1">
                   <option value="DEFAULT" disabled>Выберите направление</option>
                   <option>Аналитика данных</option>
                   <option>Дизайн</option>

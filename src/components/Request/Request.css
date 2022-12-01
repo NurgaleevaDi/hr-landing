@@ -1,11 +1,16 @@
 .request {
-  margin: auto;
-  margin-bottom: 125px;
-  max-width: 1225px;
+  padding-bottom: 20px;
+  padding-left: 108px;
+  padding-right: 108px;
+  display: flex;
+}
+
+.request__container {
+  display: flex;
+  min-width: 893px;
 }
 
 .request__title {
-  font-style: normal;
   font-weight: 400;
   font-size: 48px;
   line-height: 1.18;
@@ -21,7 +26,7 @@
 }
 
 .request__button {
-  min-width: 315px;
+  max-width: 315px;
   min-height: 60px;
   padding: 0;
   border-radius: 14px;
@@ -41,4 +46,9 @@
 
 .request__button:active {
   background-color: #1C4BA8;
+}
+
+.request__img {
+  align-self: center;
+  justify-content: center;
 }

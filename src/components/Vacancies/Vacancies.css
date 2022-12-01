@@ -45,6 +45,10 @@
   }
 }
 
+.vacancies__overflow {
+  overflow: auto;
+}
+
 .vacancies__container_s {
   justify-content: space-between;
   align-items: center;
@@ -54,8 +58,9 @@
 
 @media screen and (max-width: 1000px) {
   .vacancies__container_s {
+    min-width: calc(161px*5 + 10px*4);
     column-gap: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 }
 
@@ -142,6 +147,14 @@
   grid-template-columns: 1fr 1fr 1fr;
   gap: 35px;
 }
+
+@media screen and (max-width: 1000px) {
+  .vacancies__grid {
+    padding-top: 10px;
+    grid-template-columns: 1fr;
+  }
+}
+
 
 .vacancies__flex {
   display: flex;

@@ -37,17 +37,16 @@ function Vacancies({ componentRef }) {
     if (profession > 1) return <Empty />;
   };
 
-  console.log(`${btn} btn`);
-  console.log(`${profession} profession`);
-
   return (
     <section className="vacancies" ref={componentRef}>
       <h2 className="vacancies__title">Сотрудничество</h2>
       <div className="vacancies__container">
         {profBtns.map((item, index) => <button key={index} className={`vacancies__button ${btn === index ? 'vacancies__button_active' : ''}`} onClick={() => handleOnClick(index)}>{item}</button>)}
       </div>
-      <div className="vacancies__container vacancies__container_s">
-        {btns.map((item, i) => <button key={i} className={`vacancies__button_s ${profession === i ? 'vacancies__button_s_active' : ''}`} id='Программирование' onClick={() => handleProfessionOnClick(i)}>{item}</button>)}
+      <div className="vacancies__overflow">
+        <div className="vacancies__container vacancies__container_s">
+          {btns.map((item, i) => <button key={i} className={`vacancies__button_s ${profession === i ? 'vacancies__button_s_active' : ''}`} id='Программирование' onClick={() => handleProfessionOnClick(i)}>{item}</button>)}
+        </div>
       </div>
       <div className={profession > 1 ? 'vacancies__flex' : 'vacancies__grid'}>
           {handleFilters()}

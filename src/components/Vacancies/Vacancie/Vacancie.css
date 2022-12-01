@@ -26,7 +26,6 @@
    min-height: 224px;
    display: flex;
    flex-direction: column;
-   row-gap: 20px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -38,7 +37,7 @@
 
 .vacancie__title {
    padding: 0;
-   margin: 0;
+   margin: 0 0 20px 0;
    color: #000000;
    font-family: YS Text;
    font-size: 36px;
@@ -50,6 +49,7 @@
    .vacancie__title {
       font-size: 24px;
       line-height: 30px;
+      margin-bottom: 15px;
    }
 }
 

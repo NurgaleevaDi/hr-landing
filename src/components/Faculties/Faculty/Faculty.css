@@ -156,4 +156,8 @@
     align-self: center;
     margin-bottom: 35px;
   }
+  .back__txt {
+    font-weight: 400;
+    font-size: 14px;
+  }
 }

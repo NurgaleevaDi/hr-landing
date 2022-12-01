@@ -1,0 +1,37 @@
+.faculties {
+   min-height: 939px;
+   padding: 0 110px 154px;
+   margin: 0 auto;
+}
+
+.faculties__title {
+   padding-bottom: 36px;
+   margin: 0;
+   color: #000000;
+   font-size: 36px;
+   font-weight: 400;
+}
+
+.faculties__grid {
+   display: grid;
+   margin: 0;
+   padding: 0;
+   grid-template-columns: 1fr 1fr 1fr;
+   column-gap: 41px;
+   row-gap: 35px;
+}
+
+@media screen and (max-width: 460px) {
+  .faculties {
+    padding: 0 0 50px 15px;
+    min-height: 0;
+  }
+  .faculties__grid {
+    display: flex;
+    column-gap: 16px;
+  }
+  .wrapper {
+    width: 100%;
+    overflow: auto;
+  }
+}

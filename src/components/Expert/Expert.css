@@ -1,0 +1,131 @@
+.expert {
+  padding-bottom: 125px;
+  padding-left: 108px;
+  padding-right: 108px;
+}
+
+.expert__title {
+  margin: 0;
+  margin-bottom: 50px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+}
+
+.expert__puzzle {
+  display: flex;
+  justify-content: center;
+  margin-right: -38px;
+}
+
+.puzzle {
+  display: flex;
+  border-radius: 15px;
+  min-height: 175px;
+}
+
+.puzzle_one {
+  width: 422px;
+  background-image: url(./images/puzzle-one.png);
+  background-repeat: no-repeat;
+  margin-left: -26px;
+}
+
+.puzzle_two {
+  width: 458px;
+  background-image: url(./images/puzzle-two.png);
+  background-repeat: no-repeat;
+}
+
+.puzzle_three {
+  margin-left: -48px;
+  width: 404px;
+  background-image: url(./images/puzzle-three.png);
+  background-repeat: no-repeat;
+}
+
+.expert__span {
+  margin-top: 10px;
+  margin-left: 20px;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1.25;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.puzzle-text {
+  margin: 0 auto;
+  align-self: center;
+  /* margin-left: 50px; */
+  max-width: 280px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+@media screen and (max-width: 460px){
+  .expert {
+    padding-bottom: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+  }
+
+  .expert__title {
+    font-size: 28px;
+    margin: 0;
+    margin-bottom: 25px;
+  }
+
+  .expert__puzzle {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+
+  .puzzle {
+    background-repeat: no-repeat;
+    background-position: cover;
+    width: 100%;
+    margin: 0;
+  }
+
+  .puzzle_one {
+    background-image: url(./images/puzzle-one-mob.png);
+    height: 190px;
+    margin: auto;
+    width: 100%;
+    /* margin-bottom: -40px; */
+  }
+
+  .puzzle_two {
+    margin: 0;
+    background-image: url(./images/puzzle-two-mob.png);
+    height: 190px;
+    margin: auto;
+    width: 100%;
+    /* margin-bottom: -30px; */
+  }
+
+  .puzzle_three {
+    margin: 0;
+    background-image: url(./images/puzzle-three-mob.png);
+    height: 150px;
+    width: 101%;
+  }
+
+  .puzzle-text {
+    margin: 0;
+
+    /* margin-top: 55px;
+    margin-right: 30px; */
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .puzzle-text_one {
+    padding-bottom: 40px;
+  }
+}

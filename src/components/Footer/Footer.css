@@ -71,10 +71,6 @@
   padding: 0;
 }
 
-.footer__nav-link {
-  /* margin-bottom: 12px; */
-}
-
 .footer__container-second {
   display: grid;
   grid-template-columns: 285px 1fr;

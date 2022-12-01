@@ -1,7 +1,10 @@
+/* eslint-disable no-unused-expressions */
 /* eslint-disable react/prop-types */
 import React from 'react';
 
 function PopupWithForm({ isOpen, onClose }) {
+  isOpen ? document.body.style.overflow = 'hidden' : document.body.style.overflow = 'scroll';
+
   return (
     <div className={`popup ${isOpen ? 'popup_opened' : ''}`}>
       <div className="popup-overlay">

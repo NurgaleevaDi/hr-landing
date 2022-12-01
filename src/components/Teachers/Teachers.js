@@ -1,10 +1,11 @@
+/* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
 import React, { useEffect, useState } from 'react';
 import './Teachers.css';
 
 import Teacher from './Teacher/Teacher';
 
-const Teachers = () => {
+const Teachers = ({ componentRef }) => {
   const [data, setData] = useState([]);
   const [slideIndex, setSlideIndex] = useState(0);
 
@@ -39,7 +40,7 @@ const Teachers = () => {
   console.log(slideIndex);
 
   return (
-    <section className="teachers">
+    <section className="teachers" ref={componentRef}>
       <div className="teachers__inner">
         <div className="teachers__header-wrapper">
           <div className="teachers__header-text">

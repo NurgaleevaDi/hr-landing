@@ -75,7 +75,7 @@ function PopupWithForm({ isOpen, onClose }) {
                     указанных данных для целей рассмотрения анкеты и обратной связи по ней.</label>
                 </div>
               </div>
-              <button type="submit" className="request__button">Оставить заявку</button>
+              <button type="submit" className="request__button request__button_form">Оставить заявку</button>
           </form>
         </div>
       </div>

@@ -21,7 +21,7 @@ const Teacher = ({
     </div>
     <h3 className="teacher__title">{ quote }</h3>
     <p className="teacher__subtitle">{ description }</p>
-    <a href="https://dzen.ru/a/YMoLXPV6oB8ZQIRP" className="teachers__link">Читать все отзывы</a>
+    <a href="https://dzen.ru/a/YMoLXPV6oB8ZQIRP" target="_blank" rel="noreferrer" className="teachers__link">Читать все отзывы</a>
   </li>
   );
 };

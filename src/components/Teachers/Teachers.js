@@ -5,10 +5,9 @@ import './Teachers.css';
 
 import Teacher from './Teacher/Teacher';
 
-const Teachers = ({ componentRef, body }) => {
+const Teachers = ({ componentRef }) => {
   const [data, setData] = useState([]);
   const [slideIndex, setSlideIndex] = useState(0);
-  const [width, setWidth] = useState();
 
   const handleLeftBtnClick = () => {
     if (slideIndex <= 0) {
@@ -35,7 +34,6 @@ const Teachers = ({ componentRef, body }) => {
   };
 
   useEffect(() => {
-    setWidth(body.current.offsetWidth);
     fetchData();
   }, []);
 

@@ -1,7 +1,10 @@
+/* eslint-disable no-unused-expressions */
 /* eslint-disable react/prop-types */
 import React from 'react';
 
 function PopupWithForm({ isOpen, onClose }) {
+  isOpen ? document.body.style.overflow = 'hidden' : document.body.style.overflow = 'scroll';
+
   return (
     <div className={`popup ${isOpen ? 'popup_opened' : ''}`}>
       <div className="popup-overlay">
@@ -75,7 +78,7 @@ function PopupWithForm({ isOpen, onClose }) {
                     указанных данных для целей рассмотрения анкеты и обратной связи по ней.</label>
                 </div>
               </div>
-              <button type="submit" className="request__button">Оставить заявку</button>
+              <button type="submit" className="request__button request__button_form">Оставить заявку</button>
           </form>
         </div>
       </div>

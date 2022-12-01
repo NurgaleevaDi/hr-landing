@@ -14,7 +14,7 @@
 .navBurger_opened {
    position: fixed;
    background-color: #FBFAF8;
-   z-index: 2;
+   z-index: 16;
    visibility: visible;
    opacity: 1;
 }

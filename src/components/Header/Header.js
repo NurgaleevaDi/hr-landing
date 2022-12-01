@@ -4,7 +4,7 @@ import headerLogo from './images/header-logo.svg';
 import NavBurger from './NavBurger/NavBurger';
 
 function Header({
-  onRedirectButton, vacancies, tasks
+  onRedirectButton, vacancies, tasks, teachers
 }) {
   const [isOpen, setIsisOpen] = useState(false);
 
@@ -22,7 +22,7 @@ function Header({
         <div className="header__container">
           <button className="header__redirect-button" onClick={() => onRedirectButton(tasks)}>Кто такой наставник?</button>
           <button className="header__redirect-button" onClick={() => onRedirectButton(tasks)}>Кто такой ревьюер?</button>
-          <button className="header__redirect-button">Отзывы</button>
+          <button className="header__redirect-button" onClick={() => onRedirectButton(teachers)}>Отзывы</button>
           <button className="header__button" onClick={() => onRedirectButton(vacancies)}>Смотреть предложения</button>
         </div>
         <div className="header__burger-menu" onClick={isOpen ? onClose : onClick}>

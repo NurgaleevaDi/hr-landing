@@ -3,7 +3,7 @@ import React from 'react';
 import chair from './images/mentor.png';
 import glasses from './images/reviewer.png';
 
-function Tasks({ componentRef }) {
+function Tasks({ onRedirectButton, componentRef, vacancies }) {
   return (
     <section className="tasks" ref={componentRef}>
       <div className="tasks__container tasks__container_first">
@@ -23,13 +23,13 @@ function Tasks({ componentRef }) {
             <p className="tasks__text">&sim;35 000-50 000 &#8381; в месяц</p>
           </div> */}
         </div>
-        <button type="button" className="tasks__button button"><a className="tasks__link" href="#">Смотреть предложения</a></button>
+        <button type="button" className="tasks__button button" onClick={() => onRedirectButton(vacancies)}><a className="tasks__link">Смотреть предложения</a></button>
       </div>
       <div className="tasks__container tasks__container_second">
         <h2 className="tasks__title">Задачи ревьюера</h2>
         <ul className="tasks__list list">
           <li className="tasks__item">Проверять код и проекты студентов</li>
-          <li className="tasks__item">Простыми словами объяснять им ошибки</li>
+          <li className="tasks__item">Простыми словами объяснять ошибки</li>
           <li className="tasks__item">Давать корректирующую обратную связь</li>
           <li className="tasks__item">Оценивать работы - зачёт/незачёт</li>
         </ul>
@@ -40,7 +40,7 @@ function Tasks({ componentRef }) {
           </div> */}
           <img className="tasks__image tasks__image_second" src={glasses} alt="Очки"></img>
         </div>
-        <button type="button" className="tasks__button button"><a className="tasks__link" href="#">Смотреть предложения</a></button>
+        <button type="button" className="tasks__button button" onClick={() => onRedirectButton(vacancies)}><a className="tasks__link">Смотреть предложения</a></button>
       </div>
 
     </section>

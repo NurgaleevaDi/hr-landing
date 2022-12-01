@@ -51,47 +51,31 @@
 }
 
 @media screen and (max-width: 460px) {
-  .schedule{
-    max-width: 345px;
-    /* margin: auto;
-    margin-bottom: 140px; */
+  .schedule {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 50px;
   }
   .schedule__title {
     font-size: 28px;
-    margin-bottom: 25px;
-    /* font-style: normal;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 1.17;
-    margin: 0;
-    margin-bottom: 50px; */
+    margin-bottom: 40px;
   }
 
   .schedule__list {
-    /* display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    justify-content: space-between;
-    padding: 0; */
-    justify-content: center;
+    justify-content: start;
   }
 
   .schedule__points {
     font-size: 20px;
-    margin-right: 0px;
+    margin-right: 40px;
     margin-bottom: 30px;
-
-    /* text-align: center;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    letter-spacing: 0.007em;
-    line-height: 1.33;
-    max-width: 385px;
-    margin-right: 35px; */
   }
 
-  .schedule__span{
+  .schedule__span {
     font-size: 40px;
+  }
+
+  .schedule__text {
+    font-size: 18px;
   }
 }

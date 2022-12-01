@@ -19,6 +19,10 @@ function Footer() {
               </a>
             </li>
           </ul>
+          <button type="button" className="footer__button">
+          <a className="link" href="https://t.me/practicum_experts">Следить за предложениями</a>
+          <img src={tg} className="footer__tg-icon" alt="Телеграмм"/>
+        </button>
         </div>
         <ul className='footer__nav list'>
           <li className='footer__nav-link'><a className='link' href="https://yandex.ru/support/praktikum/feedback.html" target="_blank" rel="noreferrer">Помощь</a></li>
@@ -30,11 +34,7 @@ function Footer() {
         </ul>
       </div>
       <div className='footer__container-second'>
-        <button type="button" className="footer__button">
-          <a className="link" href="https://t.me/practicum_experts">Следить за предложениями</a>
-          <img src={tg} className="footer__tg-icon" alt="Телеграмм"/>
-        </button>
-        <p className='footer__copyright'>&copy;2022 АНО ДПО «ШАД», ООО «Яндекс»</p>
+
         <div className='footer__legal-info'>
           <p className='footer__legal-text'>Информация на данной странице описывает возможные варианты получения
             дополнительного дохода в месяц (т.н. подработка). Не является предложением о работе.
@@ -44,6 +44,7 @@ function Footer() {
             от 24 марта 2015 года.Сертификат о прохождении обучения по программе дополнительного
             профессионального образования также выдается АНО ДПО «ШАД».</p>
         </div>
+        <p className='footer__copyright'>&copy;2022 АНО ДПО «ШАД», ООО «Яндекс»</p>
       </div>
     </footer>
   );

@@ -54,9 +54,11 @@ const Teachers = ({ componentRef }) => {
             <button onClick={handleRightBtnClick} className="teachers__btn teachers__btn-right"></button>
           </div>
         </div>
-        <ul className="teachers__container" style={{ transform: `translateX(-${slideIndex * 415}px)` }}>
+        <div className="overflowed">
+          <ul className="teachers__container" style={{ transform: `translateX(-${slideIndex * 415}px)` }}>
           {data.map((item) => <Teacher key={item.id} {...item} />)}
-        </ul>
+          </ul>
+        </div>
       </div>
     </section>
   );

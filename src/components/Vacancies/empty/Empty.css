@@ -91,6 +91,11 @@
   text-decoration: none;
 }
 
+.empty__subscribe-btn:hover {
+  box-shadow: 0px 5px 4px 0px #2C3D4926;
+  transition: 0.6s ease;
+}
+
 @media screen and (max-width: 843px) {
   .empty__subscribe-btn {
     justify-self: center;

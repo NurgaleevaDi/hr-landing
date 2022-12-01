@@ -5,7 +5,7 @@
   background-color: rgba(0, 0, 0, 0.5);
   visibility: hidden;
   opacity: 0;
-  transition: visibility 0s, opacity 0.5s linear;
+  transition: visibility 0s, opacity 0.3s linear;
   font-family: 'YS Text', 'Arial', sans;
   top: 0;
   left: 0;

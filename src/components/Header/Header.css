@@ -50,7 +50,7 @@
 
 .header__redirect-button:hover {
    color: #5686E3;
-   transition: 0.6s ease;
+   transition: 0.3s ease;
 }
 
 
@@ -75,7 +75,7 @@
 .header__button:active {
    color: #FFFFFF;
    background-color: #000000;
-   transition: 0.6s ease;
+   transition: 0.3s ease;
 }
 
 /* Burger menu */

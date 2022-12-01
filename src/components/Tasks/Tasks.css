@@ -4,7 +4,7 @@
   justify-content: center;
   margin-left: 108px;
   margin-right: 108px;
-  margin-bottom: 125px;
+  /* margin-bottom: 125px; */
 }
 
 .tasks__container {
@@ -24,8 +24,8 @@
 
 .tasks__container_first{
   margin-right: 35px;
-  padding-left: 62px;
-  padding-right: 62px;
+  padding-left: 87px;
+  padding-right: 87px;
 }
 
 .tasks__container_second{
@@ -33,10 +33,10 @@
   padding-right: 48px;
 }
 
-.tasks__image {
+/* .tasks__image {
   max-height: 290px;
   grid-area: img;
-}
+} */
 
 .tasks__info {
   margin: auto 0;
@@ -79,17 +79,20 @@
 }
 
 .tasks__list {
-margin: 0 auto;
+  margin: 0 auto;
   margin-bottom: 45px;
+  list-style-position: inside;
+
+
 }
 
 .tasks__item {
   list-style-type: disc;
   font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
+  font-weight: 500;
+  font-size: 24px;
   line-height: 1.15;
-  margin-bottom: 27px;
+  margin-bottom: 16px;
 }
 
 .tasks__item:last-child{
@@ -98,13 +101,13 @@ margin: 0 auto;
 
 .tasks__button {
   margin: auto;
-  margin-bottom: 50px;
+  margin-bottom: 45px;
   border: none;
   background-color: #262626;
   border-radius: 14px;
   min-height: 60px;
-  padding-left: 53px;
-  padding-right: 53px;
+  padding-left: 93px;
+  padding-right: 93px;
   cursor: pointer;
   transition: background-color 0.6s;
 }
@@ -126,9 +129,9 @@ margin: 0 auto;
   line-height: 1.25;
 }
 
-.tasks__image_second {
+/* .tasks__image_second {
   width: 349px;
-}
+} */
 
 @media screen and (max-width: 460px) {
   .tasks {

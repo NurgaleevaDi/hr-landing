@@ -142,7 +142,7 @@
 
 .vacancies__grid {
   display: grid;
-  margin: 0 0 35px;
+  margin: 0;
   padding: 0;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 35px;
@@ -163,7 +163,7 @@
 }
 
 .vacancies__more-button {
-  margin: 0 auto 125px;
+  margin: 35px auto 0 auto;
   padding: 18px 0;
   text-align: center;
   background-color: transparent;

@@ -5,14 +5,12 @@
   display: flex;
   margin: 0;
   column-gap: 60px;
-  padding-bottom: 220px;
 }
 
 @media screen and (max-width: 843px) {
   .empty__wrapper {
     display: grid;
     grid-template-columns: 1fr;
-    padding-bottom: 50px;
   }
 }
 

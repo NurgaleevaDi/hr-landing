@@ -1,11 +1,11 @@
 .teachers {
   display: flex;
   justify-content: center;
+  padding: 125px 0;
 }
 
 .teachers__inner {
   max-width: 1225px;
-  padding-bottom: 82px;
   margin: 0;
 }
 
@@ -77,10 +77,12 @@
 }
 
 @media screen and (max-width: 460px) {
+  .teachers {
+    padding: 50px 0;
+  }
   .teachers__inner {
     margin-left: 15px;
     max-width: 375px;
-    padding-bottom: 50px;
   }
   .overflowed {
     overflow: auto;

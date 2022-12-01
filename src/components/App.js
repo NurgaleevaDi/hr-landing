@@ -42,7 +42,7 @@ function App() {
       <Quiz onRedirectButton={navButtonHandler} componentRef={quiz} vacancies={vacancies}
       setIsPopupWithFormOpen={setIsPopupWithFormOpen} body={body} />
       <Expert />
-      <Faculties />
+      <Faculties navButtonHandler={navButtonHandler} vacancies={vacancies} />
       <Roles />
       <Schedule />
       <Vacancies componentRef={vacancies}/>

@@ -9,30 +9,45 @@ const btns = ['Программирование', 'Аналитика', 'Диз�
 const profBtns = ['Наставники', 'Ревьюеры'];
 
 function Vacancies({ componentRef }) {
+  const nastavniki = teachers.slice(0, 6);
+  const revieweri = reviewers.slice(0, 6);
+  const moreTeachers = teachers.slice(6, 12);
+  const moreReviewers = reviewers.slice(6, 12);
   const [btn, setBtn] = useState(0);
   const [profession, setProfession] = useState(0);
+  const [teachersArr, setTeachersArr] = useState(nastavniki);
+  const [reviewersArr, setReviewersArr] = useState(revieweri);
 
   function handleOnClick(index) {
     setBtn(index);
+    setTeachersArr(nastavniki);
+    setReviewersArr(revieweri);
   }
 
   function handleProfessionOnClick(i) {
     setProfession(i);
+    setTeachersArr(nastavniki);
+    setReviewersArr(revieweri);
   }
+
+  const handleMore = () => {
+    setTeachersArr([...nastavniki, ...moreTeachers]);
+    setReviewersArr([...revieweri, ...moreReviewers]);
+  };
 
   // eslint-disable-next-line consistent-return, no-unused-vars
   const handleFilters = () => {
     if (btn === 0 && profession === 0) {
-      return teachers.slice(0, 6).map((item, i) => <Vacancie key={i} {...item} />);
+      return teachersArr.map((item, i) => <Vacancie key={i} {...item} />);
     }
     if (btn === 1 && profession === 0) {
-      return reviewers.slice(0, 6).map((item, i) => <Vacancie key={i} {...item} />);
+      return reviewersArr.map((item, i) => <Vacancie key={i} {...item} />);
     }
     if (btn === 0 && profession === 1) {
-      return teachers.slice(5, 9).map((item, i) => <Vacancie key={i} {...item} />);
+      return teachers.slice(12, 17).map((item, i) => <Vacancie key={i} {...item} />);
     }
     if (btn === 1 && profession === 1) {
-      return reviewers.slice(5, 9).map((item, i) => <Vacancie key={i} {...item} />);
+      return reviewers.slice(12, 16).map((item, i) => <Vacancie key={i} {...item} />);
     }
     if (profession > 1) return <Empty />;
   };
@@ -51,7 +66,7 @@ function Vacancies({ componentRef }) {
       <div className={profession > 1 ? 'vacancies__flex' : 'vacancies__grid'}>
           {handleFilters()}
       </div>
-      {profession > 1 ? null : <button className="vacancies__more-button">Смотреть все предложения</button>}
+      {(profession > 1 || teachersArr.length === 12) || profession === 1 ? null : <button onClick={handleMore} className="vacancies__more-button">Смотреть все предложения</button>}
     </section>
   );
 }

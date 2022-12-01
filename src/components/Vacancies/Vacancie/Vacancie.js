@@ -12,7 +12,7 @@ function Vacancie({
             <p className="vacancie__text">{description}</p>
           </p>
         </div>
-        <a target="_blank" href={link} className="vacancie__button" rel="noreferrer">Подробнее</a>
+        <a target="_blank" href={link} className="vacancie__button" rel="noreferrer">Узнать подробнее</a>
       </section >
   );
 }

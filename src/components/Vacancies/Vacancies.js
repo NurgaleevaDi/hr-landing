@@ -42,7 +42,7 @@ function Vacancies({ componentRef }) {
 
   return (
     <section className="vacancies" ref={componentRef}>
-      <h2 className="vacancies__title">Открытые вакансии</h2>
+      <h2 className="vacancies__title">Сотрудничество</h2>
       <div className="vacancies__container">
         {profBtns.map((item, index) => <button key={index} className={`vacancies__button ${btn === index ? 'vacancies__button_active' : ''}`} onClick={() => handleOnClick(index)}>{item}</button>)}
       </div>
@@ -52,7 +52,7 @@ function Vacancies({ componentRef }) {
       <div className={profession > 1 ? 'vacancies__flex' : 'vacancies__grid'}>
           {handleFilters()}
       </div>
-      {profession > 1 ? null : <button className="vacancies__more-button">Смотреть вакансии</button>}
+      {profession > 1 ? null : <button className="vacancies__more-button">Смотреть все предложения</button>}
     </section>
   );
 }

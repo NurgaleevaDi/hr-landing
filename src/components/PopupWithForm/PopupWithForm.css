@@ -63,6 +63,7 @@
   align-self: flex-end;
   margin-top: 20px;
   margin-right: 20px;
+  cursor: pointer;
 }
 
 .request__info {
@@ -177,7 +178,7 @@
 .request_text-small {
   margin: 0;
   grid-area: a;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.23;
   margin-bottom: 10px;
 }
@@ -193,4 +194,89 @@
 
 .request__button_form {
   min-width: 280px;
+}
+
+@media screen and (max-width: 600px) {
+  .request__form {
+    margin: 0;
+  }
+
+  .request__form-wrapper {
+    padding: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 345px;
+  }
+
+  .popup__close-button {
+    width: 14px;
+    height: 14px;
+    margin-top: 15px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 0;
+  }
+
+  .request__form-title {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 25px;
+  }
+
+  .request__info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    grid-row-gap: 15px;
+    margin-bottom: 40px;
+  }
+
+  .request__block {
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    max-width: 280px;
+  }
+
+  .request__block_long {
+
+  }
+
+  .request__input-block {
+
+  }
+
+  .request__input-block {
+    min-width: 280px;
+  }
+
+  .request__input_select {
+    min-height: 60px;
+    min-width: 282px;
+  }
+
+  .request__container {
+    display: flex;
+    align-items: center;
+  }
+
+  .request__span {
+    max-width: 280px;
+  }
+
+  .request__text-small {
+    max-width: 280px;
+  }
+
+  .request__agreement {
+    font-size: 10px;
+  }
+
+  .request__button_form {
+   width: 100%;
+   margin-bottom: 54px;
+  }
 }

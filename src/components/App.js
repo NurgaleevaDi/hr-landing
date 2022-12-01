@@ -17,6 +17,7 @@ function App() {
   const quiz = useRef(null);
   const vacancies = useRef(null);
   const tasks = useRef(null);
+  const teachers = useRef(null);
 
   const [isPopupWithFormOpen, setIsPopupWithFormOpen] = useState(false);
 
@@ -29,9 +30,13 @@ function App() {
       <Header
       onRedirectButton={navButtonHandler}
       vacancies={vacancies}
-      tasks={tasks}/>
+      tasks={tasks}
+      teachers={teachers}/>
       <Intro onRedirectButton={navButtonHandler} quiz={quiz} />
-      <Tasks componentRef={tasks}/>
+      <Tasks
+      onRedirectButton={navButtonHandler}
+      vacancies={vacancies}
+      componentRef={tasks}/>
       <Quiz onRedirectButton={navButtonHandler} componentRef={quiz} vacancies={vacancies}
       setIsPopupWithFormOpen={setIsPopupWithFormOpen}/>
       <Expert />
@@ -39,7 +44,7 @@ function App() {
       <Roles />
       <Schedule />
       <Vacancies componentRef={vacancies}/>
-      <Teachers />
+      <Teachers componentRef={teachers}/>
       <Request isPopupWithFormOpen={isPopupWithFormOpen}
         setIsPopupWithFormOpen={setIsPopupWithFormOpen} />
       <Footer />

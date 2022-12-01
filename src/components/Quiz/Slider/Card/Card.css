@@ -82,7 +82,7 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-  margin: 160px 0 62px 0;
+  margin: 210px 0 48px 0;
 }
 
 .card__button {
@@ -109,8 +109,13 @@
   font-weight: 400;
   font-size: 36px;
   line-height: 42px;
-  max-width: 212px;
+  max-width: 275px;
   margin: 43px 0 25px 30px;
+  display: none;
+}
+
+.visible {
+  display: inline;
 }
 
 .card__nums {
@@ -121,7 +126,16 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
+}
 
+.reverse {
+  flex-direction: column;
+  max-width: 275px;
+  font-family: 'YS Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
 }
 
 .card__text {
@@ -131,5 +145,28 @@
   font-size: 20px;
   line-height: 23px;
   max-width: 258px;
-  margin: 0 0 0 30px;
+  margin: -10px 0 0 30px;
+}
+
+@media screen and (max-width: 460px) {
+  .card__title {
+    display: inline;
+    font-size: 28px;
+    line-height: 33px;
+  }
+  .card__text {
+    margin-top: 0;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .card__text-wrapper {
+    flex-direction: row;
+  }
+  .card {
+    width: 345px;
+    height: 300px;
+  }
+  .card__buttons-wrapper {
+    margin: 83px 0 27px 0;
+  }
 }

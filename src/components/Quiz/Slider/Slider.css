@@ -4,3 +4,12 @@
   height: 470px;
   list-style: none;
 }
+
+@media screen and (max-width: 460px) {
+  .slider {
+    padding: 0;
+    margin: 100px auto 0 auto;
+    width: 345px;
+    max-height: 300px;
+  }
+}

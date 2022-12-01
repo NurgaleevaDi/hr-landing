@@ -45,3 +45,23 @@
   font-size: 18px;
   line-height: 125%;
 }
+
+@media screen and (max-width: 460px) {
+  .quiz {
+    padding: 50px 0;
+  }
+  .quiz__wrapper {
+    margin: 0 15px;
+  }
+  .quiz__title {
+    font-size: 28px;
+    line-height: 33px;
+  }
+  .quiz__inner {
+    flex-direction: column;
+    row-gap: 25px;
+  }
+  .quiz__img {
+    display: none;
+  }
+}

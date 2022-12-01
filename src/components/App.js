@@ -24,8 +24,10 @@ function App() {
     ref.current.scrollIntoView({ behavior: 'smooth' });
   };
 
+  const body = useRef();
+
   return (
-    <div className="inner">
+    <div ref={body} className="inner">
       <Header
       onRedirectButton={navButtonHandler}
       vacancies={vacancies}
@@ -33,7 +35,7 @@ function App() {
       <Intro onRedirectButton={navButtonHandler} quiz={quiz} />
       <Tasks componentRef={tasks}/>
       <Quiz onRedirectButton={navButtonHandler} componentRef={quiz} vacancies={vacancies}
-      setIsPopupWithFormOpen={setIsPopupWithFormOpen}/>
+      setIsPopupWithFormOpen={setIsPopupWithFormOpen} body={body} />
       <Expert />
       <Faculties />
       <Roles />

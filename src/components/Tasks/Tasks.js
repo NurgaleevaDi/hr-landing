@@ -29,7 +29,7 @@ function Tasks({ componentRef }) {
         <h2 className="tasks__title">Задачи ревьюера</h2>
         <ul className="tasks__list list">
           <li className="tasks__item">Проверять код и проекты студентов</li>
-          <li className="tasks__item">Простыми словами объяснять им ошибки</li>
+          <li className="tasks__item">Простыми словами объяснять ошибки</li>
           <li className="tasks__item">Давать корректирующую обратную связь</li>
           <li className="tasks__item">Оценивать работы - зачёт/незачёт</li>
         </ul>

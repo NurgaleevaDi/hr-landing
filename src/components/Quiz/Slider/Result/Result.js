@@ -19,7 +19,6 @@ const Result = ({
       onRedirectButton(vacancies);
     }
   }, [yes, no]);
-  console.log(width);
 
   const desctop = no === 8 && (width > 375) ? { marginBottom: '60px' } : { marginTop: '134px', marginBottom: '60px' };
   const mobile = no === 8 && (width <= 375) ? { marginBottom: '35px' } : { marginBottom: '35px', marginTop: '81px' };

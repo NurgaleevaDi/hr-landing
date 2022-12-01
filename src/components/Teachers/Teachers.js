@@ -37,8 +37,6 @@ const Teachers = ({ componentRef }) => {
     fetchData();
   }, []);
 
-  console.log(slideIndex);
-
   return (
     <section className="teachers" ref={componentRef}>
       <div className="teachers__inner">

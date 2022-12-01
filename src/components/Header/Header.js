@@ -12,13 +12,16 @@ function Header({
     setIsisOpen(true);
   }
 
-  function onClose() {
+  function onClose(component) {
     setIsisOpen(false);
+    if (component) {
+      onRedirectButton(component);
+    }
   }
 
   return (
       <header className="header">
-        <a target="_blank" href="https://practicum.yandex.ru/" className="header__logo" rel="noreferrer"><img src={headerLogo} alt="Лого" /></a>
+        <a target="_blank" href="https://practicum.yandex.ru/" rel="noreferrer"><img src={headerLogo} className="header__logo" alt="Лого" /></a>
         <div className="header__container">
           <button className="header__redirect-button" onClick={() => onRedirectButton(tasks)}>Кто такой наставник?</button>
           <button className="header__redirect-button" onClick={() => onRedirectButton(tasks)}>Кто такой ревьюер?</button>
@@ -35,6 +38,7 @@ function Header({
         onClose={onClose}
         onRedirectButton={onRedirectButton}
         vacancies={vacancies}
+        teachers={teachers}
         tasks={tasks}
         />
       </header >

@@ -41,12 +41,12 @@ function PopupWithForm({ isOpen, onClose }) {
                   />
                 </div>
                 <select className="request__input_select" size="1">
-                  <option selected disabled>Какая роль Вам ближе?</option>
+                  <option value="DEFAULT" disabled>Какая роль Вам ближе?</option>
                   <option>Наставник</option>
                   <option>Ревьюер</option>
                 </select>
                 <select className="request__input_select" size="1">
-                  <option selected disabled>Выберите направление</option>
+                  <option value="DEFAULT" disabled>Выберите направление</option>
                   <option>Аналитика данных</option>
                   <option>Дизайн</option>
                   <option>Маркетинг</option>

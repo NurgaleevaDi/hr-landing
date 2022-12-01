@@ -19,7 +19,8 @@
   font-weight: 400;
   font-size: 36px;
   line-height: 42px;
-  margin: 43px 74px 139px 30px;
+  margin: 45px 0 20px 30px;
+  max-width: 261px;
 }
 
 .result__btn {
@@ -31,6 +32,16 @@
   color: #FFFFFF;
   cursor: pointer;
   transition: transform .4s ease;
+}
+
+.variable {
+  max-width: 188px;
+  font-family: 'YS Text';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 125%;
+  margin: 0 0 134px 30px;
 }
 
 .result_type_error {
@@ -51,4 +62,31 @@
 
 .result_type_teacher {
   background-color: #AAEBD2;
+}
+
+.result__text-wrapper {
+  margin: 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 460px) {
+  .result {
+    width: 345px;
+    height: 300px;
+  }
+  .result__btn {
+    width: 280px;
+  }
+  .result__title {
+    font-size: 28px;
+    line-height: 33px;
+    margin: 25px 0 81px 37px;
+    max-width: 269px;
+  }
+  .variable {
+    max-width: 160px;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0 0 59px 30px;
+  }
 }

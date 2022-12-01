@@ -12,7 +12,6 @@
   overflow: hidden;
 }
 
-
 @media screen and (max-width: 460px) {
   .page {
     max-width: 375px;

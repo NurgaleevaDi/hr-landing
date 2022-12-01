@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/hr-landing/static/css/main.b6119629.css",
-    "main.js": "/hr-landing/static/js/main.d617195f.js",
+    "main.css": "/hr-landing/static/css/main.1584517e.css",
+    "main.js": "/hr-landing/static/js/main.c5389d79.js",
     "static/media/YS Text-Regular.ttf": "/hr-landing/static/media/YS Text-Regular.d30d692a0a77b7bc1037.ttf",
     "static/media/YS Display-Medium.ttf": "/hr-landing/static/media/YS Display-Medium.ea3a06614c00b1f9b619.ttf",
     "static/media/YS Display-Bold.ttf": "/hr-landing/static/media/YS Display-Bold.59a50f3530d3a18999aa.ttf",
@@ -22,17 +22,17 @@
     "static/media/7.png": "/hr-landing/static/media/7.337aa35ed06299880ca2.png",
     "static/media/5.png": "/hr-landing/static/media/5.8e324226ff269c0394d5.png",
     "static/media/10.png": "/hr-landing/static/media/10.3eae193dad6e8466426a.png",
-    "static/media/BGimage.svg": "/hr-landing/static/media/BGimage.7bae910dec7314773941.svg",
-    "static/media/header-logo.svg": "/hr-landing/static/media/header-logo.c3b8880fdf72fe43cdd0e996dada1ec2.svg",
-    "static/media/facultiesIco.svg": "/hr-landing/static/media/facultiesIco.a728314c1257b43da153.svg",
+    "static/media/BGimage.svg": "/hr-landing/static/media/BGimage.842654675ab00d028b00.svg",
+    "static/media/header-logo.svg": "/hr-landing/static/media/header-logo.52a16c591d54c472239bd7fb4c79d119.svg",
+    "static/media/facultiesIco.svg": "/hr-landing/static/media/facultiesIco.2d095bad67235cea4148.svg",
     "index.html": "/hr-landing/index.html",
-    "static/media/close-desk.svg": "/hr-landing/static/media/close-desk.e56b7ae4d48e4f903206.svg",
-    "static/media/x.svg": "/hr-landing/static/media/x.e2871917cac61403516d.svg",
-    "main.b6119629.css.map": "/hr-landing/static/css/main.b6119629.css.map",
-    "main.d617195f.js.map": "/hr-landing/static/js/main.d617195f.js.map"
+    "static/media/close-desk.svg": "/hr-landing/static/media/close-desk.b2997ff6c340a9573fef.svg",
+    "static/media/x.svg": "/hr-landing/static/media/x.42938c93648c5c3c4319.svg",
+    "main.1584517e.css.map": "/hr-landing/static/css/main.1584517e.css.map",
+    "main.c5389d79.js.map": "/hr-landing/static/js/main.c5389d79.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6119629.css",
-    "static/js/main.d617195f.js"
+    "static/css/main.1584517e.css",
+    "static/js/main.c5389d79.js"
   ]
 }

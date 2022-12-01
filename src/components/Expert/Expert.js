@@ -7,15 +7,15 @@ function Expert() {
       <div className="expert__puzzle">
         <div className="puzzle_one puzzle">
           <span className="expert__span">01</span>
-          <p className="puzzle-text">Выберите роль и заполните заявку</p>
+          <p className="puzzle-text puzzle-text_one">Выберите роль и заполните&nbsp;заявку</p>
         </div>
         <div className="puzzle_two puzzle">
           <span className="expert__span ">02</span>
-          <p className="puzzle-text">Пройдите отбор и бесплатное обучение</p>
+          <p className="puzzle-text">Пройдите отбор и&nbsp;бесплатное&nbsp;обучение</p>
         </div>
         <div className="puzzle_three puzzle">
           <span className="expert__span">03</span>
-          <p className="puzzle-text">Начните делиться знаниями со студентами Яндекс Практикума</p>
+          <p className="puzzle-text">Начните делиться знаниями&nbsp;со&nbsp;студентами Яндекс&nbsp;Практикума</p>
         </div>
       </div>
    </section>

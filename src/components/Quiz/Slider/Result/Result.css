@@ -1,0 +1,92 @@
+.result {
+  position: absolute;
+  top: calc(50% - 250px);
+  width: 385px;
+  height: 470px;
+  box-shadow: 15px -15px 20px rgba(143, 157, 167, 0.05), -15px 15px 20px rgba(143, 157, 167, 0.05), -15px -15px 20px rgba(143, 157, 167, 0.05), 15px 15px 20px rgba(143, 157, 167, 0.05);
+  border-radius: 15px;
+  transition: all 1.5s ease;
+  opacity: 1;
+  visibility: visible;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.result__title {
+  font-family: 'YS Text';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  margin: 45px 0 20px 30px;
+  max-width: 261px;
+}
+
+.result__btn {
+  width: 325px;
+  height: 60px;
+  padding: 0;
+  border-radius: 14px;
+  background-color: #262626;
+  color: #FFFFFF;
+  cursor: pointer;
+  transition: transform .4s ease;
+}
+
+.variable {
+  max-width: 188px;
+  font-family: 'YS Text';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 125%;
+  margin: 0 0 134px 30px;
+}
+
+.result_type_error {
+  background-color: #AAEBD2;
+}
+
+.result__btn:hover {
+  background-color: #5686E3;
+}
+
+.result__btn:active {
+  background-color: #1C4BA8;
+}
+
+.result_type_review {
+  background-color: #FBE5AA;
+}
+
+.result_type_teacher {
+  background-color: #AAEBD2;
+}
+
+.result__text-wrapper {
+  margin: 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 460px) {
+  .result {
+    width: 345px;
+    height: 300px;
+  }
+  .result__btn {
+    width: 280px;
+  }
+  .result__title {
+    font-size: 28px;
+    line-height: 33px;
+    margin: 25px 0 81px 37px;
+    max-width: 269px;
+  }
+  .variable {
+    max-width: 160px;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0 0 59px 30px;
+  }
+}

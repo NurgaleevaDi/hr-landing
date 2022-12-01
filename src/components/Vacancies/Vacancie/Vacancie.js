@@ -1,15 +1,18 @@
+/* eslint-disable react/prop-types */
 import React from 'react';
 
-function Vacancie() {
+function Vacancie({
+  faculty, salary, description, link
+}) {
   return (
       <section className="vacancie">
         <div className="vacancie__container">
-          <h2 className="vacancie__title">Курс Мидл-фронтенд разработчик</h2>
-          <p className="vacancie__text">30-35 тыс/мес
-            <p className="vacancie__text">за ведение группы</p>
+          <h2 className="vacancie__title">{faculty}</h2>
+          <p className="vacancie__text">Примерно {salary} мес
+            <p className="vacancie__text">{description}</p>
           </p>
         </div>
-        <button className="vacancie__button">Подробнее</button>
+        <a target="_blank" href={link} className="vacancie__button" rel="noreferrer">Подробнее</a>
       </section >
   );
 }

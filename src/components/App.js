@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef, useState } from 'react';
 import Header from './Header/Header';
 import Intro from './Intro/Intro';
 import Roles from './Roles/Roles';
@@ -14,19 +14,41 @@ import './app.css';
 import Vacancies from './Vacancies/Vacancies';
 
 function App() {
+  const quiz = useRef(null);
+  const vacancies = useRef(null);
+  const tasks = useRef(null);
+  const teachers = useRef(null);
+
+  const [isPopupWithFormOpen, setIsPopupWithFormOpen] = useState(false);
+
+  const navButtonHandler = (ref) => {
+    ref.current.scrollIntoView({ behavior: 'smooth' });
+  };
+
+  const body = useRef();
+
   return (
-    <div className="inner">
-      <Header />
-      <Intro />
-      <Tasks />
-      <Quiz />
+    <div ref={body} className="inner">
+      <Header
+      onRedirectButton={navButtonHandler}
+      vacancies={vacancies}
+      tasks={tasks}
+      teachers={teachers}/>
+      <Intro onRedirectButton={navButtonHandler} quiz={quiz} />
+      <Tasks
+      onRedirectButton={navButtonHandler}
+      vacancies={vacancies}
+      componentRef={tasks}/>
+      <Quiz onRedirectButton={navButtonHandler} componentRef={quiz} vacancies={vacancies}
+      setIsPopupWithFormOpen={setIsPopupWithFormOpen} body={body} />
       <Expert />
       <Faculties />
       <Roles />
       <Schedule />
-      <Teachers />
-      <Vacancies />
-      <Request />
+      <Vacancies componentRef={vacancies}/>
+      <Teachers componentRef={teachers} body={body} />
+      <Request isPopupWithFormOpen={isPopupWithFormOpen}
+        setIsPopupWithFormOpen={setIsPopupWithFormOpen} />
       <Footer />
     </div>
   );

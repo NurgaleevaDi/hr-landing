@@ -27,6 +27,7 @@
    margin: 0 0 30px;
    width: 414px;
    color: #000000;
+   font-family: YS Text;
    font-size: 18px;
    line-height: 22.5px;
    font-weight: 400;
@@ -38,10 +39,19 @@
    color: #FFFFFF;
    border-radius: 14px;
    border: 0;
-   margin: 0;
+   margin: 0 0 0 -20px;
    padding: 20px 46px;
    font-size: 16px;
    line-height: 20px;
    font-weight: 500;
    cursor: pointer;
+   transition: 0.6s;
+}
+
+.intro__button:hover {
+   background-color: #5686E3;
+}
+
+.intro__button:active {
+   background-color: #1C4BA8;
 }

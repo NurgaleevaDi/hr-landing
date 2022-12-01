@@ -1,13 +1,19 @@
 .page {
-   max-width: 1440px;
-   margin: 0 auto;
-   padding: 0;
-   font-family: 'Arial', 'Helvetica', sans-serif;
-   background-color: #ffffff;
-   font-weight: 400;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'YS Display','Helvetica', sans-serif;
+  background-color: #FBFAF8;
+  font-weight: 400;
 }
 
 .inner {
   position: relative;
   overflow: hidden;
+}
+
+@media screen and (max-width: 460px) {
+  .page {
+    max-width: 375px;
+  }
 }

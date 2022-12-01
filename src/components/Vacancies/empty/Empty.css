@@ -1,0 +1,70 @@
+.empty__wrapper {
+  justify-self: center;
+  align-self: center;
+  display: flex;
+  margin-top: 40px;
+  column-gap: 60px;
+  padding-bottom: 85px;
+}
+
+.empty__title {
+  font-family: 'YS Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 125%;
+  max-width: 610px;
+  margin: 40px 0;
+}
+
+.empty__text {
+  max-width: 558px;
+  margin: 0;
+  font-family: 'YS Text';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 125%;
+}
+
+.empty__img {
+  width: 513px;
+  height: 429px;
+  background-image: url('./kdbghjkn1.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.empty__subscribe-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 16px;
+  gap: 5px;
+  box-sizing: border-box;
+  border: 1px solid #000000;
+  border-radius: 14px;
+  background-color: transparent;
+  margin: 25px 0 0;
+  max-width: 265px;
+  text-decoration: none;
+}
+
+.empty__svg {
+  background-image: url('./samoletik.png');
+  width: 20px;
+  height: 16px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transform: rotate(-5deg);
+}
+
+.empty__span-accent {
+  font-family: 'YS Display';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000;
+}

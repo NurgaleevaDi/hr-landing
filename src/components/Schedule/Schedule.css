@@ -1,9 +1,10 @@
-.schedule{
+.schedule {
   max-width: 1225px;
   padding-left: 108px;
   padding-right: 108px;
   padding-bottom: 140px;
 }
+
 .schedule__title {
   font-style: normal;
   font-weight: 400;
@@ -41,13 +42,14 @@
   font-size: 64px;
   line-height: 125%;
   color: #5686E3;
-
+  font-weight: 500;
 }
 
 .schedule__text {
   margin: 0;
   font-size: 24px;
   line-height: 125%;
+  font-weight: 500;
 }
 
 @media screen and (max-width: 460px) {
@@ -56,6 +58,7 @@
     padding-right: 15px;
     padding-bottom: 50px;
   }
+
   .schedule__title {
     font-size: 28px;
     margin-bottom: 40px;

@@ -4,6 +4,7 @@ function Roles() {
   return (
       <section className="roles">
          <h2 className="roles__title">В роли наставника и ревьюера вы будете:</h2>
+         <div className="roles__overflow">
          <ul className="roles__grid">
             <li className="roles__subtitle">Менять жизнь людей к лучшему
                <p className="roles__text">Тысячи наших студентов нуждаются в ваших знаниях и опыте — не бойтесь ими делиться,</p>
@@ -21,6 +22,8 @@ function Roles() {
                <p className="roles__text">Вы сможете стать старшим наставником или сеньор-ревьювером</p>
             </li>
          </ul>
+         </div>
+
       </section>
   );
 }

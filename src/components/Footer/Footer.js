@@ -31,7 +31,7 @@ function Footer() {
       </div>
       <div className='footer__container-second'>
         <button type="button" className="footer__button">
-          <a className="link" href="https://t.me/practicum_experts">Следить за предложениями</a>
+          <a className="footer__button-link" href="https://t.me/practicum_experts">Следить за предложениями</a>
           <img src={tg} className="footer__tg-icon" alt="Телеграмм"/>
         </button>
         <p className='footer__copyright'>&copy;2022 АНО ДПО «ШАД», ООО «Яндекс»</p>

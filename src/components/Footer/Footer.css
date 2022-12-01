@@ -86,7 +86,7 @@
 }
 
 .footer__legal-info {
-  max-width: 630px;
+  max-width: 626px;
   grid-area: legal;
 }
 
@@ -98,6 +98,7 @@
 }
 
 .footer__button {
+  background-color: transparent;
   max-height: 60px;
   min-width: 300px;
   border-radius: 14px;
@@ -106,6 +107,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+  transition: box-shadow 0.6s;
+}
+
+.footer__button:hover {
+  box-shadow: 0px 5px 4px rgba(44, 61, 73, 0.15)
+}
+
+.footer__button:active {
+  background-color: black;
+  color: white;
 }
 
 .footer__tg-icon {
@@ -122,4 +134,13 @@
 .link {
   text-decoration-line: none;
   color: black;
+}
+
+.link:hover {
+  color: #5686E3;
+}
+
+.footer__button-link {
+  text-decoration-line: none;
+  color: #000000;
 }

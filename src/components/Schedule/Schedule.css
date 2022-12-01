@@ -1,7 +1,8 @@
 .schedule{
   max-width: 1225px;
-  margin: auto;
-  margin-bottom: 140px;
+  padding-left: 108px;
+  padding-right: 108px;
+  padding-bottom: 140px;
 }
 .schedule__title {
   font-style: normal;
@@ -37,7 +38,8 @@
 }
 
 .schedule__span {
-  font-size: 40px;
+  font-size: 64px;
+  line-height: 125%;
   color: #5686E3;
 
 }

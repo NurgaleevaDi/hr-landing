@@ -6,7 +6,7 @@ function Schedule() {
       <h2 className="schedule__title">Работайте удаленно и выбирайте график сами</h2>
       <ul className="schedule__list">
         <li className="schedule__points">
-          <span className="schedule__span schedule__span_one">35 - 55 000&#8381;</span>
+          <span className="schedule__span schedule__span_one">35 - 55 000 &#8381;</span>
           <p className="schedule__text">можно зарабатывать в месяц</p>
         </li>
         <li className="schedule__points">

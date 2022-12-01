@@ -49,9 +49,13 @@
    background-color: #FFFFFF;
 }
 
+.roles__overflow {
+  width: 100%;
+}
+
 @media screen and (max-width: 460px) {
   .roles {
-    min-height: none;
+    min-height: 0;
     padding: 0px 15px 50px 15px;
     background-image: none;
   }
@@ -61,14 +65,20 @@
     font-size: 28px;
   }
 
+  .roles__overflow {
+    overflow: auto;
+  }
+
   .roles__grid {
     display: flex;
-    overflow: scroll;
     grid-template-columns: none;
+    gap: 15px;
+    overflow: auto;
+    min-width: calc(250px*5 + 15px*4);
+    border-radius:15px
   }
 
   .roles__subtitle {
-    width: 250px;
     font-size: 20px;
     padding: 20px 20px 20px 20px;
   }

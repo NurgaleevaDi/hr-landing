@@ -46,7 +46,7 @@ function App() {
       <Roles />
       <Schedule />
       <Vacancies componentRef={vacancies}/>
-      <Teachers componentRef={teachers}/>
+      <Teachers componentRef={teachers} body={body} />
       <Request isPopupWithFormOpen={isPopupWithFormOpen}
         setIsPopupWithFormOpen={setIsPopupWithFormOpen} />
       <Footer />

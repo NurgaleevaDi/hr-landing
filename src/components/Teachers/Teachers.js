@@ -5,9 +5,10 @@ import './Teachers.css';
 
 import Teacher from './Teacher/Teacher';
 
-const Teachers = ({ componentRef }) => {
+const Teachers = ({ componentRef, body }) => {
   const [data, setData] = useState([]);
   const [slideIndex, setSlideIndex] = useState(0);
+  const [width, setWidth] = useState();
 
   const handleLeftBtnClick = () => {
     if (slideIndex <= 0) {
@@ -34,6 +35,7 @@ const Teachers = ({ componentRef }) => {
   };
 
   useEffect(() => {
+    setWidth(body.current.offsetWidth);
     fetchData();
   }, []);
 
@@ -54,9 +56,11 @@ const Teachers = ({ componentRef }) => {
             <button onClick={handleRightBtnClick} className="teachers__btn teachers__btn-right"></button>
           </div>
         </div>
-        <ul className="teachers__container" style={{ transform: `translateX(-${slideIndex * 415}px)` }}>
+        <div className="overflowed">
+          <ul className="teachers__container" style={{ transform: `translateX(-${slideIndex * 415}px)` }}>
           {data.map((item) => <Teacher key={item.id} {...item} />)}
-        </ul>
+          </ul>
+        </div>
       </div>
     </section>
   );

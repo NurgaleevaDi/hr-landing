@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/hr-landing/static/css/main.38c7962b.css",
-    "main.js": "/hr-landing/static/js/main.aab1e933.js",
+    "main.css": "/hr-landing/static/css/main.27dfa763.css",
+    "main.js": "/hr-landing/static/js/main.b12ee97d.js",
     "static/media/YS Text-Regular.ttf": "/hr-landing/static/media/YS Text-Regular.d30d692a0a77b7bc1037.ttf",
     "static/media/YS Display-Medium.ttf": "/hr-landing/static/media/YS Display-Medium.ea3a06614c00b1f9b619.ttf",
     "static/media/YS Display-Bold.ttf": "/hr-landing/static/media/YS Display-Bold.59a50f3530d3a18999aa.ttf",
@@ -17,11 +17,11 @@
     "index.html": "/hr-landing/index.html",
     "static/media/close-desk.svg": "/hr-landing/static/media/close-desk.b2997ff6c340a9573fef.svg",
     "static/media/x.svg": "/hr-landing/static/media/x.42938c93648c5c3c4319.svg",
-    "main.38c7962b.css.map": "/hr-landing/static/css/main.38c7962b.css.map",
-    "main.aab1e933.js.map": "/hr-landing/static/js/main.aab1e933.js.map"
+    "main.27dfa763.css.map": "/hr-landing/static/css/main.27dfa763.css.map",
+    "main.b12ee97d.js.map": "/hr-landing/static/js/main.b12ee97d.js.map"
   },
   "entrypoints": [
-    "static/css/main.38c7962b.css",
-    "static/js/main.aab1e933.js"
+    "static/css/main.27dfa763.css",
+    "static/js/main.b12ee97d.js"
   ]
 }

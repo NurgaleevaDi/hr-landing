@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/hr-landing/static/css/main.27dfa763.css",
-    "main.js": "/hr-landing/static/js/main.b12ee97d.js",
+    "main.css": "/hr-landing/static/css/main.cdefef94.css",
+    "main.js": "/hr-landing/static/js/main.bb199cdd.js",
     "static/media/YS Text-Regular.ttf": "/hr-landing/static/media/YS Text-Regular.d30d692a0a77b7bc1037.ttf",
     "static/media/YS Display-Medium.ttf": "/hr-landing/static/media/YS Display-Medium.ea3a06614c00b1f9b619.ttf",
     "static/media/YS Display-Bold.ttf": "/hr-landing/static/media/YS Display-Bold.59a50f3530d3a18999aa.ttf",
@@ -10,6 +10,7 @@
     "static/media/intro-image.png": "/hr-landing/static/media/intro-image.1cdeddb527a8ec18e489.png",
     "static/media/mentor.png": "/hr-landing/static/media/mentor.ef37db6622b448cd1bd8.png",
     "static/media/reviewer.png": "/hr-landing/static/media/reviewer.0e5102cfa8e5d5e736b0.png",
+    "static/media/intro-imageS.png": "/hr-landing/static/media/intro-imageS.f78bb12782bdc34bf321.png",
     "static/media/chair.png": "/hr-landing/static/media/chair.83e6d049f2017afa56aa.png",
     "static/media/BGimage.svg": "/hr-landing/static/media/BGimage.842654675ab00d028b00.svg",
     "static/media/header-logo.svg": "/hr-landing/static/media/header-logo.52a16c591d54c472239bd7fb4c79d119.svg",
@@ -17,11 +18,11 @@
     "index.html": "/hr-landing/index.html",
     "static/media/close-desk.svg": "/hr-landing/static/media/close-desk.b2997ff6c340a9573fef.svg",
     "static/media/x.svg": "/hr-landing/static/media/x.42938c93648c5c3c4319.svg",
-    "main.27dfa763.css.map": "/hr-landing/static/css/main.27dfa763.css.map",
-    "main.b12ee97d.js.map": "/hr-landing/static/js/main.b12ee97d.js.map"
+    "main.cdefef94.css.map": "/hr-landing/static/css/main.cdefef94.css.map",
+    "main.bb199cdd.js.map": "/hr-landing/static/js/main.bb199cdd.js.map"
   },
   "entrypoints": [
-    "static/css/main.27dfa763.css",
-    "static/js/main.b12ee97d.js"
+    "static/css/main.cdefef94.css",
+    "static/js/main.bb199cdd.js"
   ]
 }

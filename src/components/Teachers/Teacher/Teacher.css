@@ -5,6 +5,7 @@
   width: 385px;
   height: 680px;
   align-items: center;
+  justify-content: space-between;
   background-color: #fff;
   row-gap: 15px;
   border-radius: 15px;
@@ -70,7 +71,7 @@
   font-weight: 500;
   font-size: 24px;
   line-height: 125%;
-  max-width: 305px;
+  max-width: 335px;
   margin: 0;
 }
 
@@ -81,7 +82,7 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 125%;
-  max-width: 305px;
+  max-width: 335px;
   -webkit-box-orient: vertical;
   display: -webkit-box;
   -webkit-line-clamp: 4;
@@ -89,7 +90,18 @@
   text-overflow: ellipsis;
   margin: 0;
   height: 90px;
-  margin-bottom: 40px;
+}
+
+.teachers__link {
+  align-self: flex-start;
+  margin: 10px 0 34px 25px;
+  text-decoration: none;
+  color: #5686E3;
+  font-family: 'YS Text';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 125%;
 }
 
 @media screen and (max-width: 460px) {
@@ -110,5 +122,26 @@
     font-size: 16px;
     line-height: 20px;
     bottom: 16px;
+    margin-left: 15px;
+  }
+  .teacher__title {
+    align-self: flex-start;
+    margin-left: 15px;
+    max-width: 291px;
+    font-size: 18px;
+    line-height: 140%;
+  }
+  .teachers__link {
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 18px;
+    line-height: 125%;
+  }
+  .teacher__subtitle {
+    margin: 0 0 0 15px;
+    font-size: 16px;
+    line-height: 20px;
+    max-width: 291px;
+    max-height: 80px;
   }
 }

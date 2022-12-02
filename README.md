@@ -14,7 +14,7 @@ https://nurgaleevadi.github.io/hr-landing/
 ## Инструкция по установке и запуску
 Клонировать репозиторий ---> npm i ---> npm start
   
-## Использованные технологии
+## Стэк технологий
 ```
 - HTML5
 - CSS3
@@ -24,3 +24,8 @@ https://nurgaleevadi.github.io/hr-landing/
 - ES2015
 - React.js
 ```
+## Ссылки на сторонние библиотеки 
+- Их нет
+
+## Ключевые точки для media
+- 460px

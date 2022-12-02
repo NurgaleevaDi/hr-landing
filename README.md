@@ -10,6 +10,9 @@
 ## Ссылка на Github Pages
 
 https://nurgaleevadi.github.io/hr-landing/
+
+## Инструкция по установке и запуску
+Клонировать репозиторий ---> npm i ---> npm start
   
 ## Использованные технологии
 ```

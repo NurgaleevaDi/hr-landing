@@ -12,3 +12,12 @@
 https://nurgaleevadi.github.io/hr-landing/
   
 ## Использованные технологии
+```
+- HTML5
+- CSS3
+```
+```JS
+- JavaScript
+- ES2015
+- React.js
+```

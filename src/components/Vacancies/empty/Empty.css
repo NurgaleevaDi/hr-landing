@@ -1,10 +1,17 @@
 .empty__wrapper {
+  position: relative;
   justify-self: center;
   align-self: center;
   display: flex;
-  margin-top: 40px;
+  margin: 0;
   column-gap: 60px;
-  padding-bottom: 85px;
+}
+
+@media screen and (max-width: 843px) {
+  .empty__wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
 
 .empty__title {
@@ -17,6 +24,17 @@
   margin: 40px 0;
 }
 
+@media screen and (max-width: 843px) {
+  .empty__title {
+    margin: 0 0 342px;
+    display: grid;
+    grid-template-columns: 1fr;
+    font-family: 'YS Text';
+    font-size: 20px;
+    line-height: 25px;
+  }
+}
+
 .empty__text {
   max-width: 558px;
   margin: 0;
@@ -27,12 +45,32 @@
   line-height: 125%;
 }
 
+@media screen and (max-width: 843px) {
+  .empty__text {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
 .empty__img {
+  padding: 0;
+  margin: 0;
   width: 513px;
   height: 429px;
   background-image: url('./kdbghjkn1.png');
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 843px) {
+  .empty__img {
+    position: absolute;
+    justify-self: center;
+    top: 133px;
+    margin-bottom: 30px;
+    width: 302px;
+    height: 254px;
+  }
 }
 
 .empty__subscribe-btn {
@@ -47,8 +85,21 @@
   border-radius: 14px;
   background-color: transparent;
   margin: 25px 0 0;
-  max-width: 265px;
+  width: 265px;
   text-decoration: none;
+}
+
+.empty__subscribe-btn:hover {
+  box-shadow: 0px 5px 4px 0px #2C3D4926;
+  transition: 0.6s ease;
+}
+
+@media screen and (max-width: 843px) {
+  .empty__subscribe-btn {
+    justify-self: center;
+    width: 344px;
+    padding: 20px 51px;
+  }
 }
 
 .empty__svg {
@@ -60,11 +111,24 @@
   transform: rotate(-5deg);
 }
 
+@media screen and (max-width: 843px) {
+  .empty__svg {
+    width: 24px;
+    height: 24px;
+  }
+}
+
 .empty__span-accent {
   font-family: 'YS Display';
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   color: #000;
+}
+
+@media screen and (max-width: 843px) {
+  .empty__span-accent {
+    font-family: 'YS Text';
+    line-height: 20px;
+  }
 }

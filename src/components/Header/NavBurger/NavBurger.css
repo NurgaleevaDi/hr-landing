@@ -8,7 +8,7 @@
    height: 100%;
    width: 100%;
    opacity: 0;
-   transition: opacity .4s linear, visibility .4s linear;
+   transition: opacity .3s linear, visibility .3s linear;
 }
 
 .navBurger_opened {
@@ -28,8 +28,9 @@
 }
 
 .navBurger__logo {
+   border-image-width: 0;
    padding: 0;
-   margin: 0 0 40px -5px;
+   margin: 0 0 40px;
    width: 145px;
    height: 24px;
 }
@@ -37,6 +38,7 @@
 .navBurger__redirect-button {
    color: #000000;
    background-color: transparent;
+   width: 271px;
    border: 0;
    margin: 0 0 15px;
    padding: 0;

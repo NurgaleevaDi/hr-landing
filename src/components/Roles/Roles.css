@@ -1,50 +1,89 @@
 .roles {
-   min-height: 731px;
-   padding: 27px 317px 122px 128px;
-   margin: 0 auto;
-   background-image: url(./images/BGimage.svg);
-   background-repeat: no-repeat;
+  min-height: 731px;
+  padding: 0px 317px 122px 108px;
+  margin: 0 auto;
+  background-image: url(./images/BGimage.svg);
+  background-repeat: no-repeat;
 }
 
 .roles__title {
-   padding-bottom: 56px;
-   margin: 0;
-   color: #000000;
-   font-size: 36px;
-   font-weight: 400;
+  padding-bottom: 50px;
+  margin: 0;
+  color: #000000;
+  font-size: 48px;
+  font-weight: 400;
 }
 
 .roles__grid {
-   display: grid;
-   justify-content: start;
-   margin: 0;
-   padding: 0;
-   grid-template-columns: 1fr 1fr;
-   gap: 20px 38px;
+  display: grid;
+  justify-content: start;
+  margin: 0;
+  padding: 0;
+  grid-template-columns: 1fr 1fr;
+  gap: 35px 35px;
 }
 
 .roles__subtitle {
-   width: 422px;
-   min-height: 108px;
-   margin: 0;
-   padding: 29px 38px 32px 30px;
-   font-family: YS Text;
-   font-size: 24px;
-   font-weight: 400;
-   border-radius: 15px;
-   list-style-type: none;
-   background-color: #FFFFFF;
-   box-shadow: 15px 15px 20px 0px rgba(143, 157, 167, 0.05),
-      15px -15px 20px 0px rgba(143, 157, 167, 0.05),
-      -15px 15px 20px 0px rgba(143, 157, 167, 0.05),
-      -15px -15px 20px 0px rgba(143, 157, 167, 0.05);
+  width: 422px;
+  min-height: 108px;
+  margin: 0;
+  padding: 29px 38px 32px 30px;
+  font-family: YS Text;
+  font-size: 28px;
+  font-weight: 400;
+  border-radius: 15px;
+  list-style-type: none;
+  background-color: #FFFFFF;
+  box-shadow: 15px 15px 20px 0px rgba(143, 157, 167, 0.05),
+    15px -15px 20px 0px rgba(143, 157, 167, 0.05),
+    -15px 15px 20px 0px rgba(143, 157, 167, 0.05),
+    -15px -15px 20px 0px rgba(143, 157, 167, 0.05);
 }
 
 .roles__text {
-   margin: 0;
-   padding: 15px 0 0;
-   font-size: 16px;
-   font-weight: 400;
-   border-radius: 15px;
-   background-color: #FFFFFF;
+  margin: 0;
+  padding: 15px 0 0;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 15px;
+  background-color: #FFFFFF;
+}
+
+.roles__overflow {
+  width: 100%;
+}
+
+@media screen and (max-width: 460px) {
+  .roles {
+    min-height: 0;
+    padding: 0px 15px 50px 15px;
+    background-image: none;
+  }
+
+  .roles__title {
+    padding-bottom: 25px;
+    font-size: 28px;
+  }
+
+  .roles__overflow {
+    overflow: auto;
+  }
+
+  .roles__grid {
+    display: flex;
+    grid-template-columns: none;
+    gap: 15px;
+    overflow: auto;
+    min-width: calc(250px*5 + 15px*4);
+    border-radius: 15px;
+  }
+
+  .roles__subtitle {
+    font-size: 20px;
+    padding: 20px 20px 20px 20px;
+  }
+
+  .roles__text {
+    font-size: 14px;
+  }
 }

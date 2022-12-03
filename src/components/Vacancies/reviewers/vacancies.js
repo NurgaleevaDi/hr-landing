@@ -43,6 +43,48 @@ const reviewers = [
   },
   {
     id: '7',
+    faculty: 'Курс «Java-разработчик»',
+    salary: 30000,
+    description: 'Оплата за каждое ревью',
+    link: 'https://practicum.yandex.ru/job/vacancy-73'
+  },
+  {
+    id: '8',
+    faculty: 'Курс «iOS-разработчик»',
+    salary: 30000,
+    description: 'Оплата за каждое ревью',
+    link: 'https://practicum.yandex.ru/job/vacancy-85'
+  },
+  {
+    id: '9',
+    faculty: 'Курс «GO-разработчик»',
+    salary: 30000,
+    description: 'Оплата за каждое ревью',
+    link: 'https://practicum.yandex.ru/job/vacancy-34'
+  },
+  {
+    id: '10',
+    faculty: 'Курс «Алгоритмы для разработчиков»',
+    salary: 30000,
+    description: 'Оплата за каждое ревью',
+    link: 'https://practicum.yandex.ru/job/vacancy-32'
+  },
+  {
+    id: '11',
+    faculty: 'Курс «Инженер по тестированию»',
+    salary: 30000,
+    description: 'Оплата за каждое ревью',
+    link: 'https://practicum.yandex.ru/job/vacancy-36'
+  },
+  {
+    id: '12',
+    faculty: 'Android-разработчик»',
+    salary: 30000,
+    description: 'Оплата за каждое ревью',
+    link: 'https://practicum.yandex.ru/job/vacancy-89'
+  },
+  {
+    id: '7',
     faculty: 'Аналитика данных',
     salary: 30000,
     description: 'Оплата за каждое ревью',

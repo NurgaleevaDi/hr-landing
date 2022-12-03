@@ -1,11 +1,11 @@
 .teachers {
   display: flex;
   justify-content: center;
+  padding: 125px 0;
 }
 
 .teachers__inner {
   max-width: 1225px;
-  padding-bottom: 82px;
   margin: 0;
 }
 
@@ -70,4 +70,42 @@
   line-height: 19px;
   max-width: 387px;
   margin: 0 0 50px 0;
+}
+
+.overflowed {
+  width: 100%;
+}
+
+@media screen and (max-width: 460px) {
+  .teachers {
+    padding: 50px 0;
+  }
+  .teachers__inner {
+    margin-left: 15px;
+    max-width: 375px;
+  }
+  .overflowed {
+    overflow: auto;
+  }
+  .teachers__container {
+    max-width: 2840px;
+  }
+  .teachers__btns {
+    display: none;
+  }
+  .teachers__header-wrapper {
+    flex-direction: column;
+  }
+  .teachers__header-title {
+    max-width: 260px;
+    font-size: 28px;
+    line-height: 33px;
+    margin-bottom: 15px;
+  }
+  .teachers__header-subtitle {
+    font-size: 16px;
+    line-height: 19px;
+    max-width: 260px;
+    margin-bottom: 25px;
+  }
 }

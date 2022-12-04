@@ -62,7 +62,7 @@
   margin-bottom: 25px;
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 21px;
   line-height: 1.17;
   text-align: center;
 }
@@ -76,8 +76,8 @@
 .tasks__item {
   list-style-type: disc;
   font-style: normal;
-  font-weight: 500;
-  font-size: 22px;
+  font-weight: 400;
+  font-size: 20px;
   line-height: 1.15;
   margin-bottom: 16px;
 }

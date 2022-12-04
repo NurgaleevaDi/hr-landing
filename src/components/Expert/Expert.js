@@ -1,9 +1,13 @@
 import React from 'react';
+import cross from './images/cross.png';
 
 function Expert() {
   return (
     <section className="expert">
-      <h2 className="expert__title">Как стать экспертом?</h2>
+      <div className="expert__intro">
+        <h2 className="expert__title">Как стать экспертом?</h2>
+        <img className="expert__cross" src={cross} alt="Дизайнерский крестик"/>
+      </div>
       <div className="expert__puzzle">
         <div className="puzzle_one puzzle">
           <span className="expert__span">01</span>
